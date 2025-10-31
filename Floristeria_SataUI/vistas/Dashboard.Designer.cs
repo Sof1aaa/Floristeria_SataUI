@@ -234,6 +234,7 @@
             this.btnEmple.TabIndex = 7;
             this.btnEmple.TextAutoCenter = false;
             this.btnEmple.TextOffset = new System.Drawing.Point(15, 0);
+            this.btnEmple.Click += new System.EventHandler(this.btnEmple_Click);
             // 
             // btnCom
             // 

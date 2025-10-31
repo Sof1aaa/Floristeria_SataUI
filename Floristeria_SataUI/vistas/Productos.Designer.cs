@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinal
 {
-    partial class Productos
+    partial class Empleados_2
     {
         /// <summary>
         /// Required designer variable.
@@ -98,6 +98,7 @@
             this.btnCrear.TabIndex = 4;
             this.btnCrear.TextAutoCenter = true;
             this.btnCrear.TextOffset = new System.Drawing.Point(0, 0);
+            this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click_1);
             // 
             // Productos
             // 

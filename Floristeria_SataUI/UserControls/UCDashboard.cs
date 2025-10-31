@@ -12,9 +12,11 @@ namespace Floristeria_SataUI.UserControls
 {
     public partial class UCDashboard : UserControl
     {
-        public UCDashboard()
+        public UCDashboard(string name, string charge)
         {
             InitializeComponent();
+            lblTitulo.Text = name;
+            lblCargo.Text = charge;
         }
     }
 }

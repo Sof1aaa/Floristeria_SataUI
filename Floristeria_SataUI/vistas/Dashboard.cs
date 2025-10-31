@@ -1,5 +1,6 @@
 ﻿using Floristeria_SataUI.models;
 using Floristeria_SataUI.UserControls;
+using Floristeria_SataUI.Vistas.SubVistas;
 using ProyectoFinal;
 using System;
 using System.Collections.Generic;
@@ -15,14 +16,18 @@ namespace Floristeria_SataUI
 {
     public partial class Dashboard : Form
     {
+        string name = "";
+        string charge = "";
         public Dashboard(string nombre_user, string cargo)
         {
             InitializeComponent();
+            name = nombre_user;
+            charge = cargo;
         }
 
         private void btnDash_Click(object sender, EventArgs e)
         {
-            CargarUserControl(new UCDashboard());
+            CargarUserControl(new UCDashboard(name, charge));
         }
 
         private void CargarUserControl(UserControl control)
@@ -57,6 +62,19 @@ namespace Floristeria_SataUI
             this.pnlVentana.Tag = formHijo;
             formHijo.Show();
         }
+
+        private void btnEmple_Click(object sender, EventArgs e)
+        {
+            if (charge == "Empleado")
+            {
+                MessageBox.Show("No tienes permisos para acceder a esta sección.", "Acceso Denegado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                Abrirprod(new Empleados());
+            }
+        }
+
     }
 }
 

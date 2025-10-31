@@ -23,12 +23,9 @@ namespace Floristeria_SataUI
         {
             InitializeComponent();
             this.MouseDown += Form1_MouseDown;
-            this.pictureBox1.MouseDown += Form1_MouseDown;
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.sataPictureBox1.MouseDown += Form1_MouseDown;
-            this.sataPictureBox2.MouseDown += Form1_MouseDown;
-            this.sataPictureBox1.MouseDown += Form1_MouseDown;
-            this.MouseDown += Form1_MouseDown;
+            this.sataPanel1.MouseDown += Form1_MouseDown;
+         
+        
         }
 
 
