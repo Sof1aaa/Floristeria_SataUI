@@ -46,7 +46,7 @@ namespace Floristeria_SataUI.Controllers_query
         public List<product> get_all_products()
         {
             var productos = new List<product>();
-            using (var conexion = new SqlConnection(@"server=.;database=Floristeria;integrated security=true"))
+            using (var conexion = new SqlConnection(@"server=.\SQLEXPRESS;database=Floristeria;integrated security=true"))
             {
                 conexion.Open();
                 var comando = new SqlCommand("SELECT * FROM Productos", conexion);

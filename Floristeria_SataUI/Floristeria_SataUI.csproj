@@ -51,11 +51,11 @@
   <ItemGroup>
     <Compile Include="controllers_query\Querys_produ.cs" />
     <Compile Include="controllers_query\security.cs" />
-    <Compile Include="Vistas\Form1.cs">
+    <Compile Include="Vistas\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vistas\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Vistas\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Login.cs">
       <SubType>Form</SubType>
@@ -78,8 +78,26 @@
     <Compile Include="Vistas\Productos.Designer.cs">
       <DependentUpon>Productos.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Vistas\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Vistas\SubVistas\CarritoVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\SubVistas\CarritoVentas.Designer.cs">
+      <DependentUpon>CarritoVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\SubVistas\FormularioGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\SubVistas\FormularioGeneral.Designer.cs">
+      <DependentUpon>FormularioGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -99,6 +117,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\SubVistas\CarritoVentas.resx">
+      <DependentUpon>CarritoVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\SubVistas\FormularioGeneral.resx">
+      <DependentUpon>FormularioGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -162,5 +189,9 @@
   <ItemGroup>
     <None Include="Resources\x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrito.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

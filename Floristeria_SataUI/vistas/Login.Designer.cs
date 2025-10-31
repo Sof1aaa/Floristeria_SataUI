@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            SATAUiFramework.BorderRadius borderRadius1 = new SATAUiFramework.BorderRadius();
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,10 +44,12 @@
             this.sataPictureBox2 = new SATAUiFramework.Controls.SATAPictureBox();
             this.sataPictureBox1 = new SATAUiFramework.Controls.SATAPictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.sataPanel1 = new SATAUiFramework.SATAPanel();
             ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.sataPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // sataEllipseControl1
@@ -59,7 +62,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(518, 80);
+            this.label1.Location = new System.Drawing.Point(515, 120);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(240, 30);
             this.label1.TabIndex = 5;
@@ -70,7 +73,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(533, 156);
+            this.label2.Location = new System.Drawing.Point(530, 196);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 17);
             this.label2.TabIndex = 6;
@@ -81,7 +84,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(533, 215);
+            this.label3.Location = new System.Drawing.Point(530, 255);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 17);
             this.label3.TabIndex = 7;
@@ -90,7 +93,7 @@
             // txtUs
             // 
             this.txtUs.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUs.Location = new System.Drawing.Point(536, 176);
+            this.txtUs.Location = new System.Drawing.Point(533, 216);
             this.txtUs.Name = "txtUs";
             this.txtUs.Size = new System.Drawing.Size(204, 25);
             this.txtUs.TabIndex = 8;
@@ -98,21 +101,22 @@
             // txtPass
             // 
             this.txtPass.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(536, 235);
+            this.txtPass.Location = new System.Drawing.Point(533, 275);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(204, 25);
             this.txtPass.TabIndex = 9;
             // 
             // btnIngreso
             // 
             this.btnIngreso.ButtonText = "Entrar";
-            this.btnIngreso.CheckedBackground = System.Drawing.Color.DodgerBlue;
+            this.btnIngreso.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(123)))), ((int)(((byte)(25)))));
             this.btnIngreso.CheckedForeColor = System.Drawing.Color.White;
             this.btnIngreso.CheckedImageTint = System.Drawing.Color.White;
-            this.btnIngreso.CheckedOutline = System.Drawing.Color.DodgerBlue;
+            this.btnIngreso.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(123)))), ((int)(((byte)(25)))));
             this.btnIngreso.CustomDialogResult = System.Windows.Forms.DialogResult.None;
             this.btnIngreso.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnIngreso.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.btnIngreso.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(123)))), ((int)(((byte)(25)))));
             this.btnIngreso.HoverForeColor = System.Drawing.Color.White;
             this.btnIngreso.HoverImage = null;
             this.btnIngreso.HoverImageTint = System.Drawing.Color.White;
@@ -124,14 +128,14 @@
             this.btnIngreso.ImageTint = System.Drawing.Color.White;
             this.btnIngreso.IsToggleButton = false;
             this.btnIngreso.IsToggled = false;
-            this.btnIngreso.Location = new System.Drawing.Point(539, 310);
+            this.btnIngreso.Location = new System.Drawing.Point(536, 350);
             this.btnIngreso.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnIngreso.Name = "btnIngreso";
-            this.btnIngreso.NormalBackground = System.Drawing.Color.DodgerBlue;
+            this.btnIngreso.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(211)))), ((int)(((byte)(60)))));
             this.btnIngreso.NormalForeColor = System.Drawing.Color.White;
             this.btnIngreso.NormalOutline = System.Drawing.Color.Empty;
             this.btnIngreso.OutlineThickness = 2F;
-            this.btnIngreso.PressedBackground = System.Drawing.Color.RoyalBlue;
+            this.btnIngreso.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(123)))), ((int)(((byte)(25)))));
             this.btnIngreso.PressedForeColor = System.Drawing.Color.White;
             this.btnIngreso.PressedImageTint = System.Drawing.Color.White;
             this.btnIngreso.PressedOutline = System.Drawing.Color.Empty;
@@ -145,7 +149,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(577, 359);
+            this.linkLabel1.Location = new System.Drawing.Point(574, 399);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(131, 13);
             this.linkLabel1.TabIndex = 11;
@@ -155,7 +159,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(582, 387);
+            this.linkLabel2.Location = new System.Drawing.Point(579, 427);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(121, 13);
             this.linkLabel2.TabIndex = 12;
@@ -167,7 +171,7 @@
             this.cbVer.AutoSize = true;
             this.cbVer.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbVer.ForeColor = System.Drawing.Color.White;
-            this.cbVer.Location = new System.Drawing.Point(660, 266);
+            this.cbVer.Location = new System.Drawing.Point(657, 306);
             this.cbVer.Name = "cbVer";
             this.cbVer.Size = new System.Drawing.Size(83, 30);
             this.cbVer.TabIndex = 13;
@@ -188,7 +192,7 @@
             this.btnSalir.HoverForeColor = System.Drawing.Color.White;
             this.btnSalir.HoverImage = null;
             this.btnSalir.HoverImageTint = System.Drawing.Color.White;
-            this.btnSalir.HoverOutline = System.Drawing.Color.Empty;
+            this.btnSalir.HoverOutline = System.Drawing.Color.Transparent;
             this.btnSalir.Image = global::Floristeria_SataUI.Properties.Resources.x;
             this.btnSalir.ImageAutoCenter = true;
             this.btnSalir.ImageExpand = new System.Drawing.Point(3, 3);
@@ -196,7 +200,7 @@
             this.btnSalir.ImageTint = System.Drawing.Color.White;
             this.btnSalir.IsToggleButton = false;
             this.btnSalir.IsToggled = false;
-            this.btnSalir.Location = new System.Drawing.Point(760, 12);
+            this.btnSalir.Location = new System.Drawing.Point(762, 9);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.NormalBackground = System.Drawing.Color.DarkOliveGreen;
@@ -264,10 +268,27 @@
             this.pictureBox1.Image = global::Floristeria_SataUI.Properties.Resources.LirioLogin;
             this.pictureBox1.Location = new System.Drawing.Point(-180, -253);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(899, 943);
+            this.pictureBox1.Size = new System.Drawing.Size(899, 952);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            // 
+            // sataPanel1
+            // 
+            this.sataPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(30)))));
+            this.sataPanel1.BackColor2 = System.Drawing.Color.DarkOliveGreen;
+            this.sataPanel1.BorderColor = System.Drawing.Color.Black;
+            borderRadius1.BottomLeft = 10;
+            borderRadius1.BottomRight = 10;
+            borderRadius1.TopLeft = 10;
+            borderRadius1.TopRight = 10;
+            this.sataPanel1.BorderRadius = borderRadius1;
+            this.sataPanel1.BorderThickness = 0;
+            this.sataPanel1.Controls.Add(this.btnSalir);
+            this.sataPanel1.Location = new System.Drawing.Point(-5, -8);
+            this.sataPanel1.Name = "sataPanel1";
+            this.sataPanel1.Size = new System.Drawing.Size(821, 36);
+            this.sataPanel1.TabIndex = 15;
             // 
             // Login
             // 
@@ -275,7 +296,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.ClientSize = new System.Drawing.Size(800, 517);
-            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.sataPanel1);
             this.Controls.Add(this.cbVer);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
@@ -292,12 +313,12 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "000000000000000000000000000000000000000000000000000000000000000000000000000000000" +
-    "00000000000000000000000000000000";
+            this.Text = "Iniciar sesión";
             ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.sataPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -320,5 +341,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private FrameworkTest.SATAButton btnSalir;
+        private SATAUiFramework.SATAPanel sataPanel1;
     }
 }

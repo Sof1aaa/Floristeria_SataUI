@@ -28,7 +28,7 @@ namespace Floristeria_SataUI.Controllers_query
 
         public void login(int doc, string pass, Form parentForm)
         {
-            using (var conexion = new SqlConnection(@"server=.;database=Floristeria;integrated security=true"))
+            using (var conexion = new SqlConnection(@"server=.\SQLEXPRESS;database=Floristeria;integrated security=true"))
             {
                 conexion.Open();
                 SqlCommand sqlc = new SqlCommand("SELECT Documento,Nombre,Cargo FROM Empleados WHERE Documento = @doc AND Contraseña = @pass", conexion);
@@ -41,13 +41,10 @@ namespace Floristeria_SataUI.Controllers_query
                 {
                     string nombre = reader["Nombre"].ToString();
                     string cargo = reader["Cargo"].ToString();
-                    Form1 principal = new Form1(nombre, cargo);
+                    Dashboard principal = new Dashboard(nombre, cargo);
                     principal.Show();
                     MessageBox.Show("Bienvenido " + nombre);
                     parentForm.Hide();
-
-
-
 
                 }
                 else
