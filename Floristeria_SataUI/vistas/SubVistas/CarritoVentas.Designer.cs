@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SATAUiFramework.BorderRadius borderRadius2 = new SATAUiFramework.BorderRadius();
+            SATAUiFramework.BorderRadius borderRadius1 = new SATAUiFramework.BorderRadius();
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
             this.btnSalir = new FrameworkTest.SATAButton();
             this.sataPanel1 = new SATAUiFramework.SATAPanel();
@@ -102,14 +102,14 @@
             // 
             // sataPanel1
             // 
-            this.sataPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(30)))));
-            this.sataPanel1.BackColor2 = System.Drawing.Color.DarkOliveGreen;
+            this.sataPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.sataPanel1.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.sataPanel1.BorderColor = System.Drawing.Color.Black;
-            borderRadius2.BottomLeft = 10;
-            borderRadius2.BottomRight = 10;
-            borderRadius2.TopLeft = 10;
-            borderRadius2.TopRight = 10;
-            this.sataPanel1.BorderRadius = borderRadius2;
+            borderRadius1.BottomLeft = 10;
+            borderRadius1.BottomRight = 10;
+            borderRadius1.TopLeft = 10;
+            borderRadius1.TopRight = 10;
+            this.sataPanel1.BorderRadius = borderRadius1;
             this.sataPanel1.BorderThickness = 0;
             this.sataPanel1.Controls.Add(this.btnSalir);
             this.sataPanel1.Location = new System.Drawing.Point(-18, -6);
@@ -358,13 +358,13 @@
             // btnComprar
             // 
             this.btnComprar.ButtonText = "Comprar";
-            this.btnComprar.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(188)))), ((int)(((byte)(40)))));
+            this.btnComprar.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(28)))));
             this.btnComprar.CheckedForeColor = System.Drawing.Color.White;
             this.btnComprar.CheckedImageTint = System.Drawing.Color.White;
-            this.btnComprar.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(188)))), ((int)(((byte)(40)))));
+            this.btnComprar.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(28)))));
             this.btnComprar.CustomDialogResult = System.Windows.Forms.DialogResult.None;
             this.btnComprar.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnComprar.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(188)))), ((int)(((byte)(40)))));
+            this.btnComprar.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(28)))));
             this.btnComprar.HoverForeColor = System.Drawing.Color.White;
             this.btnComprar.HoverImage = null;
             this.btnComprar.HoverImageTint = System.Drawing.Color.White;
@@ -379,11 +379,11 @@
             this.btnComprar.Location = new System.Drawing.Point(405, 616);
             this.btnComprar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnComprar.Name = "btnComprar";
-            this.btnComprar.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(188)))), ((int)(((byte)(40)))));
+            this.btnComprar.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(30)))));
             this.btnComprar.NormalForeColor = System.Drawing.Color.White;
             this.btnComprar.NormalOutline = System.Drawing.Color.Empty;
             this.btnComprar.OutlineThickness = 2F;
-            this.btnComprar.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(139)))), ((int)(((byte)(44)))));
+            this.btnComprar.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(28)))));
             this.btnComprar.PressedForeColor = System.Drawing.Color.White;
             this.btnComprar.PressedImageTint = System.Drawing.Color.White;
             this.btnComprar.PressedOutline = System.Drawing.Color.Empty;
@@ -396,13 +396,13 @@
             // btnAtras
             // 
             this.btnAtras.ButtonText = "Regresar";
-            this.btnAtras.CheckedBackground = System.Drawing.Color.DodgerBlue;
+            this.btnAtras.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(99)))), ((int)(((byte)(103)))));
             this.btnAtras.CheckedForeColor = System.Drawing.Color.White;
             this.btnAtras.CheckedImageTint = System.Drawing.Color.White;
-            this.btnAtras.CheckedOutline = System.Drawing.Color.DodgerBlue;
+            this.btnAtras.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(99)))), ((int)(((byte)(103)))));
             this.btnAtras.CustomDialogResult = System.Windows.Forms.DialogResult.None;
             this.btnAtras.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnAtras.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.btnAtras.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(99)))), ((int)(((byte)(103)))));
             this.btnAtras.HoverForeColor = System.Drawing.Color.White;
             this.btnAtras.HoverImage = null;
             this.btnAtras.HoverImageTint = System.Drawing.Color.White;
@@ -414,14 +414,14 @@
             this.btnAtras.ImageTint = System.Drawing.Color.White;
             this.btnAtras.IsToggleButton = false;
             this.btnAtras.IsToggled = false;
-            this.btnAtras.Location = new System.Drawing.Point(38, 617);
+            this.btnAtras.Location = new System.Drawing.Point(27, 616);
             this.btnAtras.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAtras.Name = "btnAtras";
-            this.btnAtras.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(185)))), ((int)(((byte)(109)))));
+            this.btnAtras.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(123)))), ((int)(((byte)(129)))));
             this.btnAtras.NormalForeColor = System.Drawing.Color.White;
             this.btnAtras.NormalOutline = System.Drawing.Color.Empty;
             this.btnAtras.OutlineThickness = 2F;
-            this.btnAtras.PressedBackground = System.Drawing.Color.RoyalBlue;
+            this.btnAtras.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(99)))), ((int)(((byte)(103)))));
             this.btnAtras.PressedForeColor = System.Drawing.Color.White;
             this.btnAtras.PressedImageTint = System.Drawing.Color.White;
             this.btnAtras.PressedOutline = System.Drawing.Color.Empty;

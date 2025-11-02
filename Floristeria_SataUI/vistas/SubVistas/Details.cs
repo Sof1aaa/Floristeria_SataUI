@@ -45,15 +45,6 @@ namespace Floristeria_SataUI.Vistas.SubVistas
 
 
             }
-
-
-
-
-
-
-
-
-
         }
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
@@ -73,5 +64,9 @@ namespace Floristeria_SataUI.Vistas.SubVistas
             }
         }
 
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

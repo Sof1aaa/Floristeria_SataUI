@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SATAUiFramework.BorderRadius borderRadius1 = new SATAUiFramework.BorderRadius();
+            SATAUiFramework.BorderRadius borderRadius2 = new SATAUiFramework.BorderRadius();
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -110,13 +110,14 @@
             // btnIngreso
             // 
             this.btnIngreso.ButtonText = "Entrar";
-            this.btnIngreso.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(123)))), ((int)(((byte)(25)))));
+            this.btnIngreso.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(37)))), ((int)(((byte)(51)))));
             this.btnIngreso.CheckedForeColor = System.Drawing.Color.White;
             this.btnIngreso.CheckedImageTint = System.Drawing.Color.White;
-            this.btnIngreso.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(123)))), ((int)(((byte)(25)))));
+            this.btnIngreso.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(37)))), ((int)(((byte)(51)))));
             this.btnIngreso.CustomDialogResult = System.Windows.Forms.DialogResult.None;
             this.btnIngreso.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnIngreso.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(123)))), ((int)(((byte)(25)))));
+            this.btnIngreso.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnIngreso.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(37)))), ((int)(((byte)(51)))));
             this.btnIngreso.HoverForeColor = System.Drawing.Color.White;
             this.btnIngreso.HoverImage = null;
             this.btnIngreso.HoverImageTint = System.Drawing.Color.White;
@@ -131,11 +132,11 @@
             this.btnIngreso.Location = new System.Drawing.Point(536, 350);
             this.btnIngreso.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnIngreso.Name = "btnIngreso";
-            this.btnIngreso.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(211)))), ((int)(((byte)(60)))));
+            this.btnIngreso.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(29)))), ((int)(((byte)(52)))));
             this.btnIngreso.NormalForeColor = System.Drawing.Color.White;
             this.btnIngreso.NormalOutline = System.Drawing.Color.Empty;
             this.btnIngreso.OutlineThickness = 2F;
-            this.btnIngreso.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(123)))), ((int)(((byte)(25)))));
+            this.btnIngreso.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(37)))), ((int)(((byte)(51)))));
             this.btnIngreso.PressedForeColor = System.Drawing.Color.White;
             this.btnIngreso.PressedImageTint = System.Drawing.Color.White;
             this.btnIngreso.PressedOutline = System.Drawing.Color.Empty;
@@ -278,11 +279,11 @@
             this.sataPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(30)))));
             this.sataPanel1.BackColor2 = System.Drawing.Color.DarkOliveGreen;
             this.sataPanel1.BorderColor = System.Drawing.Color.Black;
-            borderRadius1.BottomLeft = 10;
-            borderRadius1.BottomRight = 10;
-            borderRadius1.TopLeft = 10;
-            borderRadius1.TopRight = 10;
-            this.sataPanel1.BorderRadius = borderRadius1;
+            borderRadius2.BottomLeft = 10;
+            borderRadius2.BottomRight = 10;
+            borderRadius2.TopLeft = 10;
+            borderRadius2.TopRight = 10;
+            this.sataPanel1.BorderRadius = borderRadius2;
             this.sataPanel1.BorderThickness = 0;
             this.sataPanel1.Controls.Add(this.btnSalir);
             this.sataPanel1.Location = new System.Drawing.Point(-5, -8);

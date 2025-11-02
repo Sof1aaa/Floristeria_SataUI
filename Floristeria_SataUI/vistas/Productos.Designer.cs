@@ -35,9 +35,9 @@
             // 
             // Flow_panel
             // 
-            this.Flow_panel.Location = new System.Drawing.Point(12, 68);
+            this.Flow_panel.Location = new System.Drawing.Point(34, 69);
             this.Flow_panel.Name = "Flow_panel";
-            this.Flow_panel.Size = new System.Drawing.Size(1067, 521);
+            this.Flow_panel.Size = new System.Drawing.Size(1102, 707);
             this.Flow_panel.TabIndex = 2;
             // 
             // sataTextBox1
@@ -49,7 +49,7 @@
             this.sataTextBox1.BorderSize = 1;
             this.sataTextBox1.Icon = global::Floristeria_SataUI.Properties.Resources.Buscar;
             this.sataTextBox1.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox1.Location = new System.Drawing.Point(12, 19);
+            this.sataTextBox1.Location = new System.Drawing.Point(34, 20);
             this.sataTextBox1.Multiline = false;
             this.sataTextBox1.Name = "sataTextBox1";
             this.sataTextBox1.PasswordChar = false;
@@ -82,7 +82,7 @@
             this.btnCrear.ImageTint = System.Drawing.Color.White;
             this.btnCrear.IsToggleButton = false;
             this.btnCrear.IsToggled = false;
-            this.btnCrear.Location = new System.Drawing.Point(927, 21);
+            this.btnCrear.Location = new System.Drawing.Point(1015, 12);
             this.btnCrear.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.NormalBackground = System.Drawing.Color.DodgerBlue;
@@ -100,18 +100,18 @@
             this.btnCrear.TextOffset = new System.Drawing.Point(0, 0);
             this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click_1);
             // 
-            // Productos
+            // Empleados_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(217)))), ((int)(((byte)(215)))));
-            this.ClientSize = new System.Drawing.Size(1091, 601);
+            this.ClientSize = new System.Drawing.Size(1173, 807);
             this.Controls.Add(this.btnCrear);
             this.Controls.Add(this.sataTextBox1);
             this.Controls.Add(this.Flow_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
-            this.Name = "Productos";
+            this.Name = "Empleados_2";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Productos";
             this.ResumeLayout(false);

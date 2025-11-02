@@ -35,9 +35,9 @@
             // 
             // Flow_panel
             // 
-            this.Flow_panel.Location = new System.Drawing.Point(12, 69);
+            this.Flow_panel.Location = new System.Drawing.Point(34, 69);
             this.Flow_panel.Name = "Flow_panel";
-            this.Flow_panel.Size = new System.Drawing.Size(1067, 521);
+            this.Flow_panel.Size = new System.Drawing.Size(1102, 707);
             this.Flow_panel.TabIndex = 3;
             // 
             // sataTextBox1
@@ -49,7 +49,7 @@
             this.sataTextBox1.BorderSize = 1;
             this.sataTextBox1.Icon = global::Floristeria_SataUI.Properties.Resources.Buscar;
             this.sataTextBox1.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox1.Location = new System.Drawing.Point(12, 20);
+            this.sataTextBox1.Location = new System.Drawing.Point(34, 20);
             this.sataTextBox1.Multiline = false;
             this.sataTextBox1.Name = "sataTextBox1";
             this.sataTextBox1.PasswordChar = false;
@@ -82,7 +82,7 @@
             this.btnCarrito.ImageTint = System.Drawing.Color.Black;
             this.btnCarrito.IsToggleButton = false;
             this.btnCarrito.IsToggled = false;
-            this.btnCarrito.Location = new System.Drawing.Point(1016, 16);
+            this.btnCarrito.Location = new System.Drawing.Point(1100, 16);
             this.btnCarrito.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCarrito.Name = "btnCarrito";
             this.btnCarrito.NormalBackground = System.Drawing.Color.Transparent;
@@ -104,7 +104,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(217)))), ((int)(((byte)(215)))));
-            this.ClientSize = new System.Drawing.Size(1091, 601);
+            this.ClientSize = new System.Drawing.Size(1173, 807);
             this.Controls.Add(this.sataTextBox1);
             this.Controls.Add(this.btnCarrito);
             this.Controls.Add(this.Flow_panel);

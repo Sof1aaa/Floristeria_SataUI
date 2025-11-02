@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SATAUiFramework.BorderRadius borderRadius3 = new SATAUiFramework.BorderRadius();
+            SATAUiFramework.BorderRadius borderRadius1 = new SATAUiFramework.BorderRadius();
             this.sataPanel1 = new SATAUiFramework.SATAPanel();
             this.btnSalir = new FrameworkTest.SATAButton();
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
@@ -52,14 +52,14 @@
             // 
             // sataPanel1
             // 
-            this.sataPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(30)))));
-            this.sataPanel1.BackColor2 = System.Drawing.Color.DarkOliveGreen;
+            this.sataPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.sataPanel1.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.sataPanel1.BorderColor = System.Drawing.Color.Black;
-            borderRadius3.BottomLeft = 10;
-            borderRadius3.BottomRight = 10;
-            borderRadius3.TopLeft = 10;
-            borderRadius3.TopRight = 10;
-            this.sataPanel1.BorderRadius = borderRadius3;
+            borderRadius1.BottomLeft = 10;
+            borderRadius1.BottomRight = 10;
+            borderRadius1.TopLeft = 10;
+            borderRadius1.TopRight = 10;
+            this.sataPanel1.BorderRadius = borderRadius1;
             this.sataPanel1.BorderThickness = 0;
             this.sataPanel1.Controls.Add(this.btnSalir);
             this.sataPanel1.Location = new System.Drawing.Point(-13, -7);
@@ -70,10 +70,10 @@
             // btnSalir
             // 
             this.btnSalir.ButtonText = "";
-            this.btnSalir.CheckedBackground = System.Drawing.Color.DarkOliveGreen;
+            this.btnSalir.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.btnSalir.CheckedForeColor = System.Drawing.Color.White;
             this.btnSalir.CheckedImageTint = System.Drawing.Color.White;
-            this.btnSalir.CheckedOutline = System.Drawing.Color.DarkOliveGreen;
+            this.btnSalir.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.btnSalir.CustomDialogResult = System.Windows.Forms.DialogResult.None;
             this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSalir.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(93)))), ((int)(((byte)(99)))));
@@ -91,7 +91,7 @@
             this.btnSalir.Location = new System.Drawing.Point(940, 11);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.NormalBackground = System.Drawing.Color.DarkOliveGreen;
+            this.btnSalir.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.btnSalir.NormalForeColor = System.Drawing.Color.White;
             this.btnSalir.NormalOutline = System.Drawing.Color.Empty;
             this.btnSalir.OutlineThickness = 2F;
@@ -182,7 +182,7 @@
             this.Img_button.ImageTint = System.Drawing.Color.White;
             this.Img_button.IsToggleButton = false;
             this.Img_button.IsToggled = false;
-            this.Img_button.Location = new System.Drawing.Point(547, 425);
+            this.Img_button.Location = new System.Drawing.Point(547, 414);
             this.Img_button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Img_button.Name = "Img_button";
             this.Img_button.NormalBackground = System.Drawing.Color.DodgerBlue;
@@ -194,7 +194,7 @@
             this.Img_button.PressedImageTint = System.Drawing.Color.White;
             this.Img_button.PressedOutline = System.Drawing.Color.Empty;
             this.Img_button.Rounding = new System.Windows.Forms.Padding(5);
-            this.Img_button.Size = new System.Drawing.Size(360, 71);
+            this.Img_button.Size = new System.Drawing.Size(360, 63);
             this.Img_button.TabIndex = 29;
             this.Img_button.TextAutoCenter = true;
             this.Img_button.TextOffset = new System.Drawing.Point(0, 0);
@@ -212,13 +212,13 @@
             // Regis_btn
             // 
             this.Regis_btn.ButtonText = "Actualizar";
-            this.Regis_btn.CheckedBackground = System.Drawing.Color.DodgerBlue;
+            this.Regis_btn.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(28)))));
             this.Regis_btn.CheckedForeColor = System.Drawing.Color.White;
             this.Regis_btn.CheckedImageTint = System.Drawing.Color.White;
-            this.Regis_btn.CheckedOutline = System.Drawing.Color.DodgerBlue;
+            this.Regis_btn.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(28)))));
             this.Regis_btn.CustomDialogResult = System.Windows.Forms.DialogResult.None;
             this.Regis_btn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Regis_btn.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.Regis_btn.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(28)))));
             this.Regis_btn.HoverForeColor = System.Drawing.Color.White;
             this.Regis_btn.HoverImage = null;
             this.Regis_btn.HoverImageTint = System.Drawing.Color.White;
@@ -230,14 +230,14 @@
             this.Regis_btn.ImageTint = System.Drawing.Color.White;
             this.Regis_btn.IsToggleButton = false;
             this.Regis_btn.IsToggled = false;
-            this.Regis_btn.Location = new System.Drawing.Point(696, 541);
+            this.Regis_btn.Location = new System.Drawing.Point(696, 556);
             this.Regis_btn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Regis_btn.Name = "Regis_btn";
-            this.Regis_btn.NormalBackground = System.Drawing.Color.DodgerBlue;
+            this.Regis_btn.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(30)))));
             this.Regis_btn.NormalForeColor = System.Drawing.Color.White;
             this.Regis_btn.NormalOutline = System.Drawing.Color.Empty;
             this.Regis_btn.OutlineThickness = 2F;
-            this.Regis_btn.PressedBackground = System.Drawing.Color.RoyalBlue;
+            this.Regis_btn.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(28)))));
             this.Regis_btn.PressedForeColor = System.Drawing.Color.White;
             this.Regis_btn.PressedImageTint = System.Drawing.Color.White;
             this.Regis_btn.PressedOutline = System.Drawing.Color.Empty;

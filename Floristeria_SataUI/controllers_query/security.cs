@@ -41,7 +41,7 @@ namespace Floristeria_SataUI.Controllers_query
                 {
                     string nombre = reader["Nombre"].ToString();
                     string cargo = reader["Cargo"].ToString();
-                    Dashboard principal = new Dashboard(nombre, cargo);
+                    Menu principal = new Menu(nombre, cargo);
                     principal.Show();
                     MessageBox.Show("Bienvenido " + nombre);
                     parentForm.Hide();
