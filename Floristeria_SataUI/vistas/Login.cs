@@ -75,5 +75,14 @@ namespace Floristeria_SataUI
 
             }
         }
+      
+
+        private void txtUs_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

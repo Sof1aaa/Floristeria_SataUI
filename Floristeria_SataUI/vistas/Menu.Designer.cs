@@ -31,6 +31,9 @@
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pnlVentana = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.btnConfig = new FrameworkTest.SATAButton();
             this.btnSalir = new FrameworkTest.SATAButton();
             this.btnPago = new FrameworkTest.SATAButton();
@@ -40,10 +43,7 @@
             this.btnVen = new FrameworkTest.SATAButton();
             this.btnPro = new FrameworkTest.SATAButton();
             this.btnDash = new FrameworkTest.SATAButton();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pnlVentana = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,6 +80,34 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(214, 29);
             this.panel2.TabIndex = 11;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(96, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Lirium";
+            // 
+            // pnlVentana
+            // 
+            this.pnlVentana.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlVentana.Location = new System.Drawing.Point(214, 18);
+            this.pnlVentana.Name = "pnlVentana";
+            this.pnlVentana.Size = new System.Drawing.Size(1173, 807);
+            this.pnlVentana.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(214, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1173, 18);
+            this.panel3.TabIndex = 12;
             // 
             // btnConfig
             // 
@@ -427,17 +455,6 @@
             this.btnDash.TextOffset = new System.Drawing.Point(15, 0);
             this.btnDash.Click += new System.EventHandler(this.btnDash_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(96, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 25);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Lirium";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Floristeria_SataUI.Properties.Resources.Blanco;
@@ -448,24 +465,7 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // pnlVentana
-            // 
-            this.pnlVentana.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlVentana.Location = new System.Drawing.Point(214, 18);
-            this.pnlVentana.Name = "pnlVentana";
-            this.pnlVentana.Size = new System.Drawing.Size(1173, 807);
-            this.pnlVentana.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(214, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1173, 18);
-            this.panel3.TabIndex = 12;
-            // 
-            // Dashboard
+            // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -476,7 +476,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Dashboard";
+            this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);

@@ -122,6 +122,18 @@
     <Compile Include="Vistas\SubVistas\Actualizar.Designer.cs">
       <DependentUpon>Actualizar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\SubVistas\Detalles_empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\SubVistas\Detalles_empleados.Designer.cs">
+      <DependentUpon>Detalles_empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\SubVistas\Regis_empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\SubVistas\Regis_empleado.Designer.cs">
+      <DependentUpon>Regis_empleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\SubVistas\Regis_product.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,6 +196,12 @@
     <EmbeddedResource Include="Vistas\SubVistas\Actualizar.resx">
       <DependentUpon>Actualizar.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\SubVistas\Detalles_empleados.resx">
+      <DependentUpon>Detalles_empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\SubVistas\Regis_empleado.resx">
+      <DependentUpon>Regis_empleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\SubVistas\Regis_product.resx">
       <DependentUpon>Regis_product.cs</DependentUpon>

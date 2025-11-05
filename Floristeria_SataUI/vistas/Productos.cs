@@ -12,11 +12,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Floristeria_SataUI.Controllers_query;
 using Floristeria_SataUI.Vistas.SubVistas;
+using System.Threading;
 
 namespace ProyectoFinal
 {
     public partial class Empleados_2 : Form
     {
+        int count = 0;
         public Empleados_2()
         {
             InitializeComponent();
@@ -184,12 +186,24 @@ namespace ProyectoFinal
 
         private void btnCrear_Click_1(object sender, EventArgs e)
         {
+
             Regis_product res = new Regis_product();
-            res.FormClosed += (s, args) =>
+
+            if(count == 0)
             {
-                CargarProductos();
-            };
-            res.Show();
+                res.Show();
+                count = 1;
+                res.FormClosed += (s, args) =>
+                {
+                    count = 0;
+                    CargarProductos();
+                };
+            }
+            else
+            {
+                MessageBox.Show("Ya hay una ventana de registro abierta.");
+            }
+
 
         }
     }
