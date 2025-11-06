@@ -67,5 +67,6 @@ namespace Floristeria_SataUI.Vistas.SubVistas
         {
             this.Close();
         }
+
     }
 }

@@ -97,7 +97,6 @@ namespace Floristeria_SataUI
                 Abrirprod(new Empleados());
             }
         }
-
     }
 }
 

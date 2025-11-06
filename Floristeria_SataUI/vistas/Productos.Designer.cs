@@ -35,6 +35,7 @@
             // 
             // Flow_panel
             // 
+            this.Flow_panel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Flow_panel.Location = new System.Drawing.Point(34, 69);
             this.Flow_panel.Name = "Flow_panel";
             this.Flow_panel.Size = new System.Drawing.Size(1102, 707);
@@ -49,7 +50,7 @@
             this.sataTextBox1.BorderSize = 1;
             this.sataTextBox1.Icon = global::Floristeria_SataUI.Properties.Resources.Buscar;
             this.sataTextBox1.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox1.Location = new System.Drawing.Point(34, 20);
+            this.sataTextBox1.Location = new System.Drawing.Point(34, 17);
             this.sataTextBox1.Multiline = false;
             this.sataTextBox1.Name = "sataTextBox1";
             this.sataTextBox1.PasswordChar = false;

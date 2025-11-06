@@ -38,12 +38,12 @@
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(34, 71);
+            this.dataGridView1.Location = new System.Drawing.Point(34, 69);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(1102, 650);
+            this.dataGridView1.Size = new System.Drawing.Size(1102, 707);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
@@ -68,7 +68,7 @@
             this.btnCrear.ImageTint = System.Drawing.Color.White;
             this.btnCrear.IsToggleButton = false;
             this.btnCrear.IsToggled = false;
-            this.btnCrear.Location = new System.Drawing.Point(1015, 24);
+            this.btnCrear.Location = new System.Drawing.Point(1015, 12);
             this.btnCrear.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.NormalBackground = System.Drawing.Color.DodgerBlue;

@@ -153,6 +153,16 @@ namespace Floristeria_SataUI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gris {
+            get {
+                object obj = ResourceManager.GetObject("Gris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ingresos {
             get {
                 object obj = ResourceManager.GetObject("Ingresos", resourceCulture);

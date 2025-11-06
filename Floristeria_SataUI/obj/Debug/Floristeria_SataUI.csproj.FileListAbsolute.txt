@@ -81,3 +81,5 @@ C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.pdb
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Regis_empleado.resources
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Detalles_empleados.resources
+C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Detalles_empleados.resources
+C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Regis_empleado.resources

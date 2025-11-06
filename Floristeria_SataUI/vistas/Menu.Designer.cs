@@ -28,12 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pnlVentana = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.btnConfig = new FrameworkTest.SATAButton();
             this.btnSalir = new FrameworkTest.SATAButton();
             this.btnPago = new FrameworkTest.SATAButton();
@@ -43,15 +39,18 @@
             this.btnVen = new FrameworkTest.SATAButton();
             this.btnPro = new FrameworkTest.SATAButton();
             this.btnDash = new FrameworkTest.SATAButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlVentana = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnlVentana.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // sataEllipseControl1
-            // 
-            this.sataEllipseControl1.CornerRadius = 35;
-            this.sataEllipseControl1.TargetControl = this;
             // 
             // panel1
             // 
@@ -80,34 +79,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(214, 29);
             this.panel2.TabIndex = 11;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(96, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 25);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Lirium";
-            // 
-            // pnlVentana
-            // 
-            this.pnlVentana.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlVentana.Location = new System.Drawing.Point(214, 18);
-            this.pnlVentana.Name = "pnlVentana";
-            this.pnlVentana.Size = new System.Drawing.Size(1173, 807);
-            this.pnlVentana.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(214, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1173, 18);
-            this.panel3.TabIndex = 12;
             // 
             // btnConfig
             // 
@@ -455,6 +426,17 @@
             this.btnDash.TextOffset = new System.Drawing.Point(15, 0);
             this.btnDash.Click += new System.EventHandler(this.btnDash_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(96, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Lirium";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Floristeria_SataUI.Properties.Resources.Blanco;
@@ -464,6 +446,50 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // pnlVentana
+            // 
+            this.pnlVentana.Controls.Add(this.label2);
+            this.pnlVentana.Controls.Add(this.pictureBox2);
+            this.pnlVentana.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlVentana.Location = new System.Drawing.Point(214, 18);
+            this.pnlVentana.Name = "pnlVentana";
+            this.pnlVentana.Size = new System.Drawing.Size(1173, 807);
+            this.pnlVentana.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(97)))), ((int)(((byte)(96)))));
+            this.label2.Location = new System.Drawing.Point(509, 706);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(173, 65);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Lirium";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Floristeria_SataUI.Properties.Resources.Gris;
+            this.pictureBox2.Location = new System.Drawing.Point(244, 34);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(703, 669);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(214, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1173, 18);
+            this.panel3.TabIndex = 12;
+            // 
+            // sataEllipseControl1
+            // 
+            this.sataEllipseControl1.CornerRadius = 35;
+            this.sataEllipseControl1.TargetControl = this;
             // 
             // Menu
             // 
@@ -482,6 +508,9 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnlVentana.ResumeLayout(false);
+            this.pnlVentana.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -504,6 +533,8 @@
         private FrameworkTest.SATAButton btnPago;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label2;
     }
 }
 
