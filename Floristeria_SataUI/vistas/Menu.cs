@@ -71,7 +71,7 @@ namespace Floristeria_SataUI
 
         private void btnPro_Click(object sender, EventArgs e)
         {
-            Abrirprod(new Empleados_2());
+            Abrirprod(new Productos());
         }
 
 

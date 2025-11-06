@@ -18,6 +18,7 @@ namespace Floristeria_SataUI.Vistas
     {
         int count = 0;
         int count2= 0;
+        int countUpdate = 0;
         public Empleados()
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace Floristeria_SataUI.Vistas
             btnEditar.UseColumnTextForButtonValue = true;
             dataGridView1.Columns.Add(btnEditar);
 
-            // Botón Eliminar
+           
             DataGridViewButtonColumn btnEliminar = new DataGridViewButtonColumn();
             btnEliminar.Name = "btnEliminar";
             btnEliminar.HeaderText = "Eliminar";
@@ -39,10 +40,16 @@ namespace Floristeria_SataUI.Vistas
 
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+
 
         private void cargarEmp()
         {
-            // Lógica para cargar empleados
+            
             query_employee query = new query_employee();
             dataGridView1.DataSource = query.get_all_Employees();
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -112,6 +119,50 @@ namespace Floristeria_SataUI.Vistas
                 };
 
 
+            }
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0) return;
+
+            int documento = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["Documento"].Value);
+
+           
+            if (dataGridView1.Columns[e.ColumnIndex].Name == "btnEditar")
+            {
+                if (countUpdate == 1)
+                {
+                    MessageBox.Show("Ya hay una ventana de edición abierta.");
+                    return;
+                }
+
+                countUpdate = 1; 
+
+                actualizar_empleado actualizar = new actualizar_empleado();
+                actualizar.load_txt(documento);
+                actualizar.FormClosed += (s, args) =>
+                {
+                    countUpdate = 0;
+                    cargarEmp();
+                };
+                actualizar.Show();
+            }
+
+           
+            else if (dataGridView1.Columns[e.ColumnIndex].Name == "btnEliminar")
+            {
+                var result = MessageBox.Show("¿Seguro que deseas eliminar este empleado?",
+                                             "Confirmar eliminación",
+                                             MessageBoxButtons.YesNo,
+                                             MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes)
+                {
+                    query_employee query = new query_employee();
+                    query.DeleteEmployee(documento.ToString());
+                    cargarEmp();
+                }
             }
         }
     }
