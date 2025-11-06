@@ -1,6 +1,6 @@
 ﻿namespace ProyectoFinal
 {
-    partial class Empleados_2
+    partial class Productos
     {
         /// <summary>
         /// Required designer variable.

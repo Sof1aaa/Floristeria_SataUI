@@ -16,10 +16,10 @@ using System.Threading;
 
 namespace ProyectoFinal
 {
-    public partial class Empleados_2 : Form
+    public partial class Productos : Form
     {
         int count = 0;
-        public Empleados_2()
+        public Productos()
         {
             InitializeComponent();
             CargarProductos();
@@ -86,9 +86,6 @@ namespace ProyectoFinal
                 {
                     try
                     {
-                        
-                        MessageBox.Show($"Click detectado en producto ID: {producto.Id}");
-
                       
                         Details details = new Details(producto.Id);
                         details.Show();
