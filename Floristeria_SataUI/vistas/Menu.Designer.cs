@@ -42,7 +42,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlVentana = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
@@ -450,28 +449,16 @@
             // pnlVentana
             // 
             this.pnlVentana.Controls.Add(this.pictureBox2);
-            this.pnlVentana.Controls.Add(this.label2);
             this.pnlVentana.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlVentana.Location = new System.Drawing.Point(214, 18);
             this.pnlVentana.Name = "pnlVentana";
             this.pnlVentana.Size = new System.Drawing.Size(1173, 807);
             this.pnlVentana.TabIndex = 1;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(97)))), ((int)(((byte)(96)))));
-            this.label2.Location = new System.Drawing.Point(509, 706);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 65);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Lirium";
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Floristeria_SataUI.Properties.Resources.Gris;
-            this.pictureBox2.Location = new System.Drawing.Point(244, 34);
+            this.pictureBox2.Location = new System.Drawing.Point(245, 65);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(703, 669);
             this.pictureBox2.TabIndex = 0;
@@ -509,7 +496,6 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlVentana.ResumeLayout(false);
-            this.pnlVentana.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -534,7 +520,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label2;
     }
 }
 

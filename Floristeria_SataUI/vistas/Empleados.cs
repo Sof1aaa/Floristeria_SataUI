@@ -22,6 +22,21 @@ namespace Floristeria_SataUI.Vistas
         {
             InitializeComponent();
             cargarEmp();
+            DataGridViewButtonColumn btnEditar = new DataGridViewButtonColumn();
+            btnEditar.Name = "btnEditar";
+            btnEditar.HeaderText = "Editar";
+            btnEditar.Text = "Editar";
+            btnEditar.UseColumnTextForButtonValue = true;
+            dataGridView1.Columns.Add(btnEditar);
+
+            // Botón Eliminar
+            DataGridViewButtonColumn btnEliminar = new DataGridViewButtonColumn();
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.HeaderText = "Eliminar";
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseColumnTextForButtonValue = true;
+            dataGridView1.Columns.Add(btnEliminar);
+
         }
 
 
@@ -33,7 +48,7 @@ namespace Floristeria_SataUI.Vistas
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.Columns["imagen"].Visible = false;
 
-
+             
 
 
         }
@@ -61,6 +76,10 @@ namespace Floristeria_SataUI.Vistas
 
 
         }
+       
+
+
+
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {

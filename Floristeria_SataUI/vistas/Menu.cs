@@ -97,6 +97,11 @@ namespace Floristeria_SataUI
                 Abrirprod(new Empleados());
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

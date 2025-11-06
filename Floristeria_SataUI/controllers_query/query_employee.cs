@@ -66,5 +66,48 @@ namespace Floristeria_SataUI.controllers_query
             }
         }
 
+        private string connectionString = @"server=.\SQLEXPRESS;database=Floristeria;integrated security=true";
+
+        public bool UpdateEmployee(Employees emp)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(@"
+                UPDATE Empleados SET 
+                    Nombre = @Nombre,
+                    Apellido = @Apellido,
+                    Cargo = @Cargo,
+                    Telefono = @Telefono,
+                    Imagen = @Imagen
+                WHERE Documento = @Documento", conn);
+
+                cmd.Parameters.AddWithValue("@Documento", emp.Documento);
+                cmd.Parameters.AddWithValue("@Nombre", emp.Nombre);
+                cmd.Parameters.AddWithValue("@Apellido", emp.Apellido);
+                cmd.Parameters.AddWithValue("@Cargo", emp.Cargo);
+                cmd.Parameters.AddWithValue("@Telefono", emp.telefono);
+                cmd.Parameters.AddWithValue("@Imagen", emp.imagen ?? (object)DBNull.Value);
+
+                return cmd.ExecuteNonQuery() > 0;
+            }
+        }
+
+        public bool DeleteEmployee(string documento)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("DELETE FROM Empleados WHERE Documento = @Documento", conn);
+                cmd.Parameters.AddWithValue("@Documento", documento);
+
+                return cmd.ExecuteNonQuery() > 0;
+            }
+        }
     }
+
+
+
+
+}
 }
