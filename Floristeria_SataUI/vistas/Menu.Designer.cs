@@ -449,8 +449,8 @@
             // 
             // pnlVentana
             // 
-            this.pnlVentana.Controls.Add(this.label2);
             this.pnlVentana.Controls.Add(this.pictureBox2);
+            this.pnlVentana.Controls.Add(this.label2);
             this.pnlVentana.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlVentana.Location = new System.Drawing.Point(214, 18);
             this.pnlVentana.Name = "pnlVentana";
