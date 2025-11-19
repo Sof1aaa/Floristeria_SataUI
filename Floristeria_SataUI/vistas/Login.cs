@@ -60,7 +60,13 @@ namespace Floristeria_SataUI
             string user = txtUs.Text;
             string pass = txtPass.Text;
             security security = new security();
-            security.login(int.Parse(user), pass, this);
+            if (string.IsNullOrEmpty(txtUs.Text) || string.IsNullOrEmpty(txtPass.Text))
+            {
+                MessageBox.Show("Ingrese datos");
+                return;
+            }
+       
+                security.login(int.Parse(user), pass, this);
         }
 
         private void cbVer_CheckedChanged(object sender, EventArgs e)

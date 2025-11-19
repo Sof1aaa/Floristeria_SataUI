@@ -102,6 +102,25 @@ namespace Floristeria_SataUI
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            if (this.WindowState == FormWindowState.Normal)
+                this.WindowState = FormWindowState.Maximized;
+            else
+                this.WindowState = FormWindowState.Normal;
+
+            // Maximizar el formulario hijo activo
+            if (this.ActiveMdiChild != null)
+            {
+                if (this.ActiveMdiChild.WindowState == FormWindowState.Normal)
+                    this.ActiveMdiChild.WindowState = FormWindowState.Maximized;
+                else
+                    this.ActiveMdiChild.WindowState = FormWindowState.Normal;
+            }
+        }
     }
 }
+
 

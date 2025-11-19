@@ -15,7 +15,7 @@ namespace Floristeria_SataUI.controllers_query
         public List<Employees> get_all_Employees()
         {
             var employees = new List<Employees>();
-            using (var conexion = new SqlConnection(@"server=.\SQLEXPRESS;database=Floristeria;integrated security=true"))
+            using (var conexion = new SqlConnection(@"server=.;database=Floristeria;integrated security=true"))
             {
                 conexion.Open();
                 var comando = new SqlCommand("SELECT * FROM Empleados WHERE Cargo <> 'Desarrollador'", conexion);
