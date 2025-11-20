@@ -18,5 +18,10 @@ namespace Floristeria_SataUI.UserControls
             lblTitulo.Text = name;
             lblCargo.Text = charge;
         }
+
+        private void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

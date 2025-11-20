@@ -105,13 +105,22 @@ namespace Floristeria_SataUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            // 1. Lógica para el Formulario Principal (Padre)
             if (this.WindowState == FormWindowState.Normal)
+            {
+                // TRUCO: Le decimos al formulario que su tamaño máximo 
+                // sea igual al "Área de Trabajo" (Pantalla menos barra de tareas)
+                this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
                 this.WindowState = FormWindowState.Maximized;
+            }
             else
+            {
                 this.WindowState = FormWindowState.Normal;
+            }
 
-            // Maximizar el formulario hijo activo
+            // 2. Lógica para el formulario hijo (MDI)
+            // (Esta parte la dejamos igual, ya que el hijo vive dentro del padre 
+            // y no necesita el cálculo de la pantalla)
             if (this.ActiveMdiChild != null)
             {
                 if (this.ActiveMdiChild.WindowState == FormWindowState.Normal)

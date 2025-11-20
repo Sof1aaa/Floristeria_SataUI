@@ -28,7 +28,7 @@ namespace Floristeria_SataUI.Controllers_query
 
         public void login(int doc, string pass, Form parentForm)
         {
-            using (var conexion = new SqlConnection(@"server=.;database=Floristeria;integrated security=true"))
+            using (var conexion = new SqlConnection(@"server=.\SQLEXPRESS;database=Floristeria;integrated security=true"))
             {
                 conexion.Open();
                 SqlCommand sqlc = new SqlCommand("SELECT Documento,Nombre,Cargo FROM Empleados WHERE Documento = @doc AND Contraseña = @pass", conexion);

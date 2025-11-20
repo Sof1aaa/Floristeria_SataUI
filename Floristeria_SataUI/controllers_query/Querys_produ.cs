@@ -19,7 +19,7 @@ namespace Floristeria_SataUI.Controllers_query
         {
             try
             {
-                SqlConnection conexion = new SqlConnection(@"server=.;database=Floristeria;integrated security=true");
+                SqlConnection conexion = new SqlConnection(@"server=.\SQLEXPRESS;database=Floristeria;integrated security=true");
                 conexion.Open();
                 string consulta = "INSERT INTO Productos (Nombre, Descripcion, Precio, Stock, Categoria,Imagen) VALUES (@Nombre, @Descripcion, @Precio, @Stock, @Categoria, @Img)";
                 SqlCommand comando = new SqlCommand(consulta, conexion);
@@ -43,7 +43,7 @@ namespace Floristeria_SataUI.Controllers_query
         public List<product> get_all_products()
         {
             var productos = new List<product>();
-            using (var conexion = new SqlConnection(@"server=.;database=Floristeria;integrated security=true"))
+            using (var conexion = new SqlConnection(@"server=.\SQLEXPRESS;database=Floristeria;integrated security=true"))
             {
                 conexion.Open();
                 var comando = new SqlCommand("SELECT * FROM Productos", conexion);
@@ -70,8 +70,8 @@ namespace Floristeria_SataUI.Controllers_query
 
         public void delete(int id)
         {
-
-            using (var conexion = new SqlConnection(@"server=.;database=Floristeria;integrated security=true"))
+                
+            using (var conexion = new SqlConnection(@"server=.\SQLEXPRESS;database=Floristeria;integrated security=true"))
             {
                 conexion.Open();
                 var comando = new SqlCommand("DELETE FROM Productos WHERE ProductoID = @Id", conexion);
@@ -112,7 +112,7 @@ namespace Floristeria_SataUI.Controllers_query
 
         public void update(int id, string nombre, string descripcion, decimal precio, int stock, string categoria, string img)
         {
-            using (var conexion = new SqlConnection(@"server=.;database=Floristeria;integrated security=true"))
+            using (var conexion = new SqlConnection(@"server=.\SQLEXPRESS;database=Floristeria;integrated security=true"))
             {
                 conexion.Open();
                 var comando = new SqlCommand("UPDATE Productos SET Nombre = @Nombre, Descripcion = @Descripcion, Precio = @Precio, Stock = @Stock, Categoria = @Categoria, Imagen = @Img WHERE ProductoID = @Id", conexion);

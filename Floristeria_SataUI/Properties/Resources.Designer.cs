@@ -183,6 +183,16 @@ namespace Floristeria_SataUI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap maximi {
+            get {
+                object obj = ResourceManager.GetObject("maximi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Ordenes_Activas {
             get {
                 object obj = ResourceManager.GetObject("Ordenes_Activas", resourceCulture);

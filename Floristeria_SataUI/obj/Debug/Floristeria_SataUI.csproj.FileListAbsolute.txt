@@ -43,7 +43,6 @@ C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\De
 C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.pdb
 C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.CarritoVentas.resources
 C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.Ventas.resources
-C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\ProyectoFinal.Empleados_2.resources
 C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Details.resources
 C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Actualizar.resources
 C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Regis_product.resources
@@ -140,3 +139,5 @@ D:\Floristeria_SataUI_version_1.5\Floristeria_SataUI\obj\Debug\Floristeria_SataU
 D:\Floristeria_SataUI_version_1.5\Floristeria_SataUI\obj\Debug\Floriste.5E40E596.Up2Date
 D:\Floristeria_SataUI_version_1.5\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.exe
 D:\Floristeria_SataUI_version_1.5\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.pdb
+C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\ProyectoFinal.Productos.resources
+C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.actualizar_empleado.resources
