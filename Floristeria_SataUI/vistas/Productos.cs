@@ -1,64 +1,58 @@
 ﻿using Floristeria_SataUI.models;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Floristeria_SataUI.Controllers_query;
 using Floristeria_SataUI.Vistas.SubVistas;
-using System.Threading;
 
 namespace ProyectoFinal
 {
     public partial class Productos : Form
     {
         int count = 0;
+
         public Productos()
         {
             InitializeComponent();
+            // Cargar todos los productos al abrir el formulario
             CargarProductos();
-            
+
+           
         }
 
-        private void button1_Click(object sender, EventArgs e)
+     
+
+        private void FiltrarProductos(string filtro)
         {
-
-        }
-
-        private void btnCrear_Click(object sender, EventArgs e)
-        {
-            
-
-          
-        }
-
-        private void CargarProductos()
-        {
-        
-            btnCrear.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnCrear.Location = new Point(this.ClientSize.Width - btnCrear.Width - 20, 20);
-
-            Flow_panel.Location = new Point(20, 70);
-            Flow_panel.Size = new Size(this.ClientSize.Width - 40, this.ClientSize.Height - 100);
-            Flow_panel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             Flow_panel.Controls.Clear();
-            Flow_panel.AutoScroll = true;
-            Flow_panel.WrapContents = true;
-            Flow_panel.FlowDirection = FlowDirection.LeftToRight;
 
-            
             Querys_produ querys = new Querys_produ();
             List<product> productos = querys.get_all_products();
+            List<product> productosFiltrados;
 
-            foreach (var producto in productos)
+           
+
+            if (string.IsNullOrEmpty(filtro))
             {
-                // Panel contenedor del producto
+                
+                productosFiltrados = productos;
+            }
+            else
+            {
+               
+                productosFiltrados = productos
+                    .Where(p =>
+                        p.Nombre != null && p.Nombre.ToLower().Contains(filtro) ||
+                        p.Precio.ToString().ToLower().Contains(filtro))
+                    .ToList();
+            }
+
+            foreach (var producto in productosFiltrados)
+            {
                 Panel productPanel = new Panel
                 {
                     Width = 200,
@@ -68,7 +62,6 @@ namespace ProyectoFinal
                     BackColor = Color.White
                 };
 
-                
                 PictureBox pictureBox = new PictureBox
                 {
                     Width = 180,
@@ -78,15 +71,10 @@ namespace ProyectoFinal
                     Cursor = Cursors.Hand
                 };
 
-                
-               
-
-              
                 pictureBox.Click += (s, e) =>
                 {
                     try
                     {
-                      
                         Details details = new Details(producto.Id);
                         details.Show();
                     }
@@ -100,7 +88,6 @@ namespace ProyectoFinal
                     pictureBox.ImageLocation = producto.Imagen;
                 else
                     pictureBox.BackColor = Color.LightGray;
-
 
                 Label nameLabel = new Label
                 {
@@ -120,7 +107,6 @@ namespace ProyectoFinal
                     Font = new Font("Arial", 10, FontStyle.Regular)
                 };
 
-             
                 Button btn_actualizar = new Button
                 {
                     Text = "Actualizar",
@@ -139,7 +125,6 @@ namespace ProyectoFinal
                     actualizar.Show();
                 };
 
-              
                 Button btn_eliminar = new Button
                 {
                     Text = "Eliminar",
@@ -166,27 +151,23 @@ namespace ProyectoFinal
                     }
                 };
 
-         
                 productPanel.Controls.Add(pictureBox);
                 productPanel.Controls.Add(nameLabel);
                 productPanel.Controls.Add(priceLabel);
                 productPanel.Controls.Add(btn_actualizar);
                 productPanel.Controls.Add(btn_eliminar);
 
-            
                 Flow_panel.Controls.Add(productPanel);
             }
 
             Flow_panel.Refresh();
         }
 
-
         private void btnCrear_Click_1(object sender, EventArgs e)
         {
-
             Regis_product res = new Regis_product();
 
-            if(count == 0)
+            if (count == 0)
             {
                 res.Show();
                 count = 1;
@@ -200,8 +181,32 @@ namespace ProyectoFinal
             {
                 MessageBox.Show("Ya hay una ventana de registro abierta.");
             }
+        }
 
+        private void CargarProductos()
+        {
+            btnCrear.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnCrear.Location = new Point(this.ClientSize.Width - btnCrear.Width - 20, 20);
 
+            Flow_panel.Location = new Point(20, 70);
+            Flow_panel.Size = new Size(this.ClientSize.Width - 40, this.ClientSize.Height - 100);
+            Flow_panel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            Flow_panel.Controls.Clear();
+            Flow_panel.AutoScroll = true;
+            Flow_panel.WrapContents = true;
+            Flow_panel.FlowDirection = FlowDirection.LeftToRight;
+
+            
+            FiltrarProductos(string.Empty);
+        }
+
+        private void sataButton1_Click(object sender, EventArgs e)
+        {
+            string filtro = Txt_search.Texts.Trim().ToLower();
+            FiltrarProductos(filtro);
+            if (string.IsNullOrEmpty(Txt_search.Texts)){
+               CargarProductos();
+            }
         }
     }
 }

@@ -44,8 +44,8 @@
             this.pnlVentana = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
             this.button1 = new System.Windows.Forms.Button();
+            this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlVentana.SuspendLayout();
@@ -83,6 +83,7 @@
             // 
             // btnConfig
             // 
+            this.btnConfig.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnConfig.ButtonText = "Configuración";
             this.btnConfig.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.btnConfig.CheckedForeColor = System.Drawing.Color.White;
@@ -121,6 +122,7 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSalir.ButtonText = "Cerrar sesión";
             this.btnSalir.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.btnSalir.CheckedForeColor = System.Drawing.Color.White;
@@ -310,6 +312,7 @@
             this.btnCli.TabIndex = 5;
             this.btnCli.TextAutoCenter = false;
             this.btnCli.TextOffset = new System.Drawing.Point(15, 0);
+            this.btnCli.Click += new System.EventHandler(this.btnCli_Click);
             // 
             // btnVen
             // 
@@ -452,16 +455,16 @@
             // 
             this.pnlVentana.Controls.Add(this.pictureBox2);
             this.pnlVentana.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlVentana.Location = new System.Drawing.Point(214, 18);
+            this.pnlVentana.Location = new System.Drawing.Point(214, 23);
             this.pnlVentana.Name = "pnlVentana";
-            this.pnlVentana.Size = new System.Drawing.Size(1173, 807);
+            this.pnlVentana.Size = new System.Drawing.Size(1173, 802);
             this.pnlVentana.TabIndex = 1;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = global::Floristeria_SataUI.Properties.Resources.Gris;
-            this.pictureBox2.Location = new System.Drawing.Point(245, 65);
+            this.pictureBox2.Location = new System.Drawing.Point(245, 63);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(703, 669);
             this.pictureBox2.TabIndex = 0;
@@ -474,23 +477,29 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(214, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1173, 18);
+            this.panel3.Size = new System.Drawing.Size(1173, 23);
             this.panel3.TabIndex = 12;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.button1.BackgroundImage = global::Floristeria_SataUI.Properties.Resources.maximi;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(1135, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(26, 27);
+            this.button1.TabIndex = 0;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // sataEllipseControl1
             // 
             this.sataEllipseControl1.CornerRadius = 35;
             this.sataEllipseControl1.TargetControl = this;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1086, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Menu
             // 

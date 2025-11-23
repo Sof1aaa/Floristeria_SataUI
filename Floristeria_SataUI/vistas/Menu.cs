@@ -129,6 +129,11 @@ namespace Floristeria_SataUI
                     this.ActiveMdiChild.WindowState = FormWindowState.Normal;
             }
         }
+
+        private void btnCli_Click(object sender, EventArgs e)
+        {
+            Abrirprod(new Clientes());
+        }
     }
 }
 
