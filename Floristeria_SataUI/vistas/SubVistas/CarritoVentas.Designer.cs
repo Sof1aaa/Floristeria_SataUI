@@ -28,14 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SATAUiFramework.BorderRadius borderRadius1 = new SATAUiFramework.BorderRadius();
+            SATAUiFramework.BorderRadius borderRadius7 = new SATAUiFramework.BorderRadius();
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
             this.btnSalir = new FrameworkTest.SATAButton();
             this.sataPanel1 = new SATAUiFramework.SATAPanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -44,17 +42,14 @@
             this.txtApellido = new SATATextBox();
             this.txtID = new SATATextBox();
             this.txtDireccion = new SATATextBox();
-            this.cbxCiudades = new SATAComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.lblSubtotal = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.btnComprar = new FrameworkTest.SATAButton();
             this.btnAtras = new FrameworkTest.SATAButton();
+            this.flowCarrito = new System.Windows.Forms.FlowLayoutPanel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.chk_regis = new System.Windows.Forms.CheckBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.sataPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // sataEllipseControl1
@@ -105,26 +100,17 @@
             this.sataPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.sataPanel1.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.sataPanel1.BorderColor = System.Drawing.Color.Black;
-            borderRadius1.BottomLeft = 10;
-            borderRadius1.BottomRight = 10;
-            borderRadius1.TopLeft = 10;
-            borderRadius1.TopRight = 10;
-            this.sataPanel1.BorderRadius = borderRadius1;
+            borderRadius7.BottomLeft = 10;
+            borderRadius7.BottomRight = 10;
+            borderRadius7.TopLeft = 10;
+            borderRadius7.TopRight = 10;
+            this.sataPanel1.BorderRadius = borderRadius7;
             this.sataPanel1.BorderThickness = 0;
             this.sataPanel1.Controls.Add(this.btnSalir);
             this.sataPanel1.Location = new System.Drawing.Point(-18, -6);
             this.sataPanel1.Name = "sataPanel1";
             this.sataPanel1.Size = new System.Drawing.Size(597, 36);
             this.sataPanel1.TabIndex = 16;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(27, 230);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(500, 209);
-            this.dataGridView1.TabIndex = 17;
             // 
             // label1
             // 
@@ -146,16 +132,6 @@
             this.label2.TabIndex = 19;
             this.label2.Text = "Nombre";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(24, 141);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 17);
-            this.label3.TabIndex = 20;
-            this.label3.Text = "Ciudad";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -170,7 +146,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(24, 210);
+            this.label5.Location = new System.Drawing.Point(24, 299);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 17);
             this.label5.TabIndex = 22;
@@ -180,7 +156,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(210, 141);
+            this.label6.Location = new System.Drawing.Point(29, 144);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(63, 17);
             this.label6.TabIndex = 23;
@@ -265,7 +241,7 @@
             this.txtDireccion.BorderSize = 2;
             this.txtDireccion.Icon = null;
             this.txtDireccion.IconSize = new System.Drawing.Size(20, 20);
-            this.txtDireccion.Location = new System.Drawing.Point(210, 159);
+            this.txtDireccion.Location = new System.Drawing.Point(29, 162);
             this.txtDireccion.Multiline = false;
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.PasswordChar = false;
@@ -277,79 +253,11 @@
             this.txtDireccion.Texts = "";
             this.txtDireccion.UnderlinedStyle = false;
             // 
-            // cbxCiudades
-            // 
-            this.cbxCiudades.BackColor = System.Drawing.Color.Transparent;
-            this.cbxCiudades.BackgroundColor = System.Drawing.Color.White;
-            this.cbxCiudades.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(86)))), ((int)(((byte)(67)))));
-            this.cbxCiudades.BorderThickness = 2;
-            this.cbxCiudades.CornerRadius = 5;
-            this.cbxCiudades.Items = null;
-            this.cbxCiudades.Keys = null;
-            this.cbxCiudades.Location = new System.Drawing.Point(27, 159);
-            this.cbxCiudades.Name = "cbxCiudades";
-            this.cbxCiudades.SelectedIndex = -1;
-            this.cbxCiudades.Size = new System.Drawing.Size(122, 35);
-            this.cbxCiudades.TabIndex = 29;
-            this.cbxCiudades.Text = "cbxCiudades";
-            this.cbxCiudades.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
-            this.cbxCiudades.TextOffset = new System.Windows.Forms.Padding(0);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(35, 454);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(59, 17);
-            this.label8.TabIndex = 30;
-            this.label8.Text = "Subtotal";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(35, 497);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 17);
-            this.label9.TabIndex = 31;
-            this.label9.Text = "Envío estimado";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(35, 531);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 21);
-            this.label10.TabIndex = 32;
-            this.label10.Text = "Total";
-            // 
-            // lblSubtotal
-            // 
-            this.lblSubtotal.AutoSize = true;
-            this.lblSubtotal.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblSubtotal.Location = new System.Drawing.Point(35, 471);
-            this.lblSubtotal.Name = "lblSubtotal";
-            this.lblSubtotal.Size = new System.Drawing.Size(18, 17);
-            this.lblSubtotal.TabIndex = 33;
-            this.lblSubtotal.Text = "--";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label12.Location = new System.Drawing.Point(35, 514);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(18, 17);
-            this.label12.TabIndex = 34;
-            this.label12.Text = "--";
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(35, 552);
+            this.label13.Location = new System.Drawing.Point(34, 579);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(22, 21);
             this.label13.TabIndex = 35;
@@ -376,7 +284,7 @@
             this.btnComprar.ImageTint = System.Drawing.Color.White;
             this.btnComprar.IsToggleButton = false;
             this.btnComprar.IsToggled = false;
-            this.btnComprar.Location = new System.Drawing.Point(405, 616);
+            this.btnComprar.Location = new System.Drawing.Point(396, 628);
             this.btnComprar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnComprar.Name = "btnComprar";
             this.btnComprar.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(82)))), ((int)(((byte)(30)))));
@@ -392,6 +300,7 @@
             this.btnComprar.TabIndex = 36;
             this.btnComprar.TextAutoCenter = true;
             this.btnComprar.TextOffset = new System.Drawing.Point(0, 0);
+            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
             // 
             // btnAtras
             // 
@@ -414,7 +323,7 @@
             this.btnAtras.ImageTint = System.Drawing.Color.White;
             this.btnAtras.IsToggleButton = false;
             this.btnAtras.IsToggled = false;
-            this.btnAtras.Location = new System.Drawing.Point(27, 616);
+            this.btnAtras.Location = new System.Drawing.Point(19, 629);
             this.btnAtras.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(123)))), ((int)(((byte)(129)))));
@@ -430,21 +339,61 @@
             this.btnAtras.TabIndex = 38;
             this.btnAtras.TextAutoCenter = true;
             this.btnAtras.TextOffset = new System.Drawing.Point(0, 0);
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            // 
+            // flowCarrito
+            // 
+            this.flowCarrito.AutoScroll = true;
+            this.flowCarrito.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowCarrito.Location = new System.Drawing.Point(27, 333);
+            this.flowCarrito.Name = "flowCarrito";
+            this.flowCarrito.Size = new System.Drawing.Size(500, 198);
+            this.flowCarrito.TabIndex = 39;
+            this.flowCarrito.WrapContents = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(29, 240);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(303, 21);
+            this.comboBox1.TabIndex = 45;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // chk_regis
+            // 
+            this.chk_regis.AutoSize = true;
+            this.chk_regis.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.chk_regis.Location = new System.Drawing.Point(27, 212);
+            this.chk_regis.Name = "chk_regis";
+            this.chk_regis.Size = new System.Drawing.Size(134, 21);
+            this.chk_regis.TabIndex = 44;
+            this.chk_regis.Text = "Cliente registrado";
+            this.chk_regis.UseVisualStyleBackColor = true;
+            this.chk_regis.CheckedChanged += new System.EventHandler(this.chk_regis_CheckedChanged);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(34, 558);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(48, 21);
+            this.label10.TabIndex = 32;
+            this.label10.Text = "Total";
             // 
             // CarritoVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(554, 667);
+            this.ClientSize = new System.Drawing.Size(541, 718);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.chk_regis);
+            this.Controls.Add(this.flowCarrito);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnComprar);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.lblSubtotal);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.cbxCiudades);
             this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.txtApellido);
@@ -453,10 +402,8 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.sataPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CarritoVentas";
@@ -464,7 +411,6 @@
             this.Text = "CarritoVentas";
             this.Load += new System.EventHandler(this.CarritoVentas_Load);
             this.sataPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -477,24 +423,20 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private SATAUiFramework.SATAPanel sataPanel1;
         private FrameworkTest.SATAButton btnSalir;
         private SATATextBox txtID;
         private SATATextBox txtApellido;
         private SATATextBox txtNombre;
-        private SATAComboBox cbxCiudades;
         private SATATextBox txtDireccion;
         private FrameworkTest.SATAButton btnComprar;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label lblSubtotal;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
         private FrameworkTest.SATAButton btnAtras;
+        private System.Windows.Forms.FlowLayoutPanel flowCarrito;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.CheckBox chk_regis;
+        private System.Windows.Forms.Label label10;
     }
 }

@@ -72,7 +72,6 @@ C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Regis_empleado.resources
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Regis_product.resources
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.FormularioGeneral.resources
-C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.Ventas.resources
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.csproj.GenerateResource.cache
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.csproj.CoreCompileInputs.cache
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\bin\Debug\Floristeria_SataUI.exe.config
@@ -144,3 +143,6 @@ C:\Users\lodon\source\repos\Sof1aaa\Floristeria_SataUI\Floristeria_SataUI\obj\De
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Regis_cliente.resources
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.Detalles_clientes.resources
 C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.actualizar_cliente.resources
+C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\ProyectoFinal.Ventas.resources
+C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.SubVistas.InputCantidadForm.resources
+C:\Users\matec\OneDrive\Documentos\GitHub\Floristeria_SataUI\Floristeria_SataUI\obj\Debug\Floristeria_SataUI.Vistas.Facturas.resources

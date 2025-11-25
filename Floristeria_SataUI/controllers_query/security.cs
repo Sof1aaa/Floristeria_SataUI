@@ -26,7 +26,7 @@ namespace Floristeria_SataUI.Controllers_query
         }
 
 
-        public void login(int doc, string pass, Form parentForm)
+        public void login(string doc, string pass, Form parentForm)
         {
             using (var conexion = new SqlConnection(@"server=.\SQLEXPRESS;database=Floristeria;integrated security=true"))
             {
@@ -41,7 +41,7 @@ namespace Floristeria_SataUI.Controllers_query
                 {
                     string nombre = reader["Nombre"].ToString();
                     string cargo = reader["Cargo"].ToString();
-                    Menu principal = new Menu(nombre, cargo);
+                    Menu principal = new Menu(nombre, cargo,doc);
                     principal.Show();
                     MessageBox.Show("Bienvenido " + nombre);
                     parentForm.Hide();

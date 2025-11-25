@@ -32,8 +32,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.sataTextBox1 = new SATATextBox();
-            this.Buscar_btn = new FrameworkTest.SATAButton();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -80,8 +78,6 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.Buscar_btn);
-            this.panel2.Controls.Add(this.sataTextBox1);
             this.panel2.Controls.Add(this.btnCrear);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -115,66 +111,6 @@
             this.panel1.Size = new System.Drawing.Size(0, 0);
             this.panel1.TabIndex = 7;
             // 
-            // sataTextBox1
-            // 
-            this.sataTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(125)))), ((int)(((byte)(130)))));
-            this.sataTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(125)))), ((int)(((byte)(130)))));
-            this.sataTextBox1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(171)))), ((int)(((byte)(21)))));
-            this.sataTextBox1.BorderRadius = 15;
-            this.sataTextBox1.BorderSize = 1;
-            this.sataTextBox1.Icon = global::Floristeria_SataUI.Properties.Resources.Buscar;
-            this.sataTextBox1.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox1.Location = new System.Drawing.Point(35, 14);
-            this.sataTextBox1.Multiline = false;
-            this.sataTextBox1.Name = "sataTextBox1";
-            this.sataTextBox1.PasswordChar = false;
-            this.sataTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.sataTextBox1.PlaceholderText = "Buscar...";
-            this.sataTextBox1.Size = new System.Drawing.Size(250, 31);
-            this.sataTextBox1.TabIndex = 5;
-            this.sataTextBox1.Text = "sataTextBox1";
-            this.sataTextBox1.Texts = "";
-            this.sataTextBox1.UnderlinedStyle = false;
-            // 
-            // Buscar_btn
-            // 
-            this.Buscar_btn.ButtonText = "Buscar";
-            this.Buscar_btn.CheckedBackground = System.Drawing.Color.DodgerBlue;
-            this.Buscar_btn.CheckedForeColor = System.Drawing.Color.White;
-            this.Buscar_btn.CheckedImageTint = System.Drawing.Color.White;
-            this.Buscar_btn.CheckedOutline = System.Drawing.Color.DodgerBlue;
-            this.Buscar_btn.CustomDialogResult = System.Windows.Forms.DialogResult.None;
-            this.Buscar_btn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Buscar_btn.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.Buscar_btn.HoverForeColor = System.Drawing.Color.White;
-            this.Buscar_btn.HoverImage = null;
-            this.Buscar_btn.HoverImageTint = System.Drawing.Color.White;
-            this.Buscar_btn.HoverOutline = System.Drawing.Color.Empty;
-            this.Buscar_btn.Image = null;
-            this.Buscar_btn.ImageAutoCenter = true;
-            this.Buscar_btn.ImageExpand = new System.Drawing.Point(0, 0);
-            this.Buscar_btn.ImageOffset = new System.Drawing.Point(0, 0);
-            this.Buscar_btn.ImageTint = System.Drawing.Color.White;
-            this.Buscar_btn.IsToggleButton = false;
-            this.Buscar_btn.IsToggled = false;
-            this.Buscar_btn.Location = new System.Drawing.Point(314, 14);
-            this.Buscar_btn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.Buscar_btn.Name = "Buscar_btn";
-            this.Buscar_btn.NormalBackground = System.Drawing.Color.DodgerBlue;
-            this.Buscar_btn.NormalForeColor = System.Drawing.Color.White;
-            this.Buscar_btn.NormalOutline = System.Drawing.Color.Empty;
-            this.Buscar_btn.OutlineThickness = 2F;
-            this.Buscar_btn.PressedBackground = System.Drawing.Color.RoyalBlue;
-            this.Buscar_btn.PressedForeColor = System.Drawing.Color.White;
-            this.Buscar_btn.PressedImageTint = System.Drawing.Color.White;
-            this.Buscar_btn.PressedOutline = System.Drawing.Color.Empty;
-            this.Buscar_btn.Rounding = new System.Windows.Forms.Padding(5);
-            this.Buscar_btn.Size = new System.Drawing.Size(103, 31);
-            this.Buscar_btn.TabIndex = 9;
-            this.Buscar_btn.TextAutoCenter = true;
-            this.Buscar_btn.TextOffset = new System.Drawing.Point(0, 0);
-            this.Buscar_btn.Click += new System.EventHandler(this.Buscar_btn_Click);
-            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -195,11 +131,9 @@
         }
 
         #endregion
-        private SATATextBox sataTextBox1;
         private FrameworkTest.SATAButton btnCrear;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel1;
-        private FrameworkTest.SATAButton Buscar_btn;
     }
 }

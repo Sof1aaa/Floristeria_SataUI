@@ -30,11 +30,8 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnConfig = new FrameworkTest.SATAButton();
             this.btnSalir = new FrameworkTest.SATAButton();
-            this.btnPago = new FrameworkTest.SATAButton();
             this.btnEmple = new FrameworkTest.SATAButton();
-            this.btnCom = new FrameworkTest.SATAButton();
             this.btnCli = new FrameworkTest.SATAButton();
             this.btnVen = new FrameworkTest.SATAButton();
             this.btnPro = new FrameworkTest.SATAButton();
@@ -46,6 +43,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
+            this.BtnFacturas = new FrameworkTest.SATAButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlVentana.SuspendLayout();
@@ -57,11 +55,9 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.btnConfig);
             this.panel1.Controls.Add(this.btnSalir);
-            this.panel1.Controls.Add(this.btnPago);
+            this.panel1.Controls.Add(this.BtnFacturas);
             this.panel1.Controls.Add(this.btnEmple);
-            this.panel1.Controls.Add(this.btnCom);
             this.panel1.Controls.Add(this.btnCli);
             this.panel1.Controls.Add(this.btnVen);
             this.panel1.Controls.Add(this.btnPro);
@@ -80,45 +76,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(214, 29);
             this.panel2.TabIndex = 11;
-            // 
-            // btnConfig
-            // 
-            this.btnConfig.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnConfig.ButtonText = "Configuración";
-            this.btnConfig.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.btnConfig.CheckedForeColor = System.Drawing.Color.White;
-            this.btnConfig.CheckedImageTint = System.Drawing.Color.White;
-            this.btnConfig.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.btnConfig.CustomDialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnConfig.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfig.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
-            this.btnConfig.HoverForeColor = System.Drawing.Color.White;
-            this.btnConfig.HoverImage = null;
-            this.btnConfig.HoverImageTint = System.Drawing.Color.White;
-            this.btnConfig.HoverOutline = System.Drawing.Color.Empty;
-            this.btnConfig.Image = global::Floristeria_SataUI.Properties.Resources.Config;
-            this.btnConfig.ImageAutoCenter = false;
-            this.btnConfig.ImageExpand = new System.Drawing.Point(0, 0);
-            this.btnConfig.ImageOffset = new System.Drawing.Point(15, 0);
-            this.btnConfig.ImageTint = System.Drawing.Color.White;
-            this.btnConfig.IsToggleButton = false;
-            this.btnConfig.IsToggled = false;
-            this.btnConfig.Location = new System.Drawing.Point(0, 664);
-            this.btnConfig.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnConfig.Name = "btnConfig";
-            this.btnConfig.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.btnConfig.NormalForeColor = System.Drawing.Color.White;
-            this.btnConfig.NormalOutline = System.Drawing.Color.Empty;
-            this.btnConfig.OutlineThickness = 2F;
-            this.btnConfig.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
-            this.btnConfig.PressedForeColor = System.Drawing.Color.White;
-            this.btnConfig.PressedImageTint = System.Drawing.Color.White;
-            this.btnConfig.PressedOutline = System.Drawing.Color.Empty;
-            this.btnConfig.Rounding = new System.Windows.Forms.Padding(5);
-            this.btnConfig.Size = new System.Drawing.Size(214, 53);
-            this.btnConfig.TabIndex = 10;
-            this.btnConfig.TextAutoCenter = false;
-            this.btnConfig.TextOffset = new System.Drawing.Point(15, 0);
             // 
             // btnSalir
             // 
@@ -160,44 +117,6 @@
             this.btnSalir.TextOffset = new System.Drawing.Point(15, 0);
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // btnPago
-            // 
-            this.btnPago.ButtonText = "Pagos";
-            this.btnPago.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.btnPago.CheckedForeColor = System.Drawing.Color.White;
-            this.btnPago.CheckedImageTint = System.Drawing.Color.White;
-            this.btnPago.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.btnPago.CustomDialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnPago.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPago.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
-            this.btnPago.HoverForeColor = System.Drawing.Color.White;
-            this.btnPago.HoverImage = null;
-            this.btnPago.HoverImageTint = System.Drawing.Color.White;
-            this.btnPago.HoverOutline = System.Drawing.Color.Empty;
-            this.btnPago.Image = global::Floristeria_SataUI.Properties.Resources.Pagos;
-            this.btnPago.ImageAutoCenter = false;
-            this.btnPago.ImageExpand = new System.Drawing.Point(0, 0);
-            this.btnPago.ImageOffset = new System.Drawing.Point(15, 0);
-            this.btnPago.ImageTint = System.Drawing.Color.White;
-            this.btnPago.IsToggleButton = false;
-            this.btnPago.IsToggled = false;
-            this.btnPago.Location = new System.Drawing.Point(0, 536);
-            this.btnPago.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
-            this.btnPago.Name = "btnPago";
-            this.btnPago.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.btnPago.NormalForeColor = System.Drawing.Color.White;
-            this.btnPago.NormalOutline = System.Drawing.Color.Empty;
-            this.btnPago.OutlineThickness = 2F;
-            this.btnPago.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
-            this.btnPago.PressedForeColor = System.Drawing.Color.White;
-            this.btnPago.PressedImageTint = System.Drawing.Color.White;
-            this.btnPago.PressedOutline = System.Drawing.Color.Empty;
-            this.btnPago.Rounding = new System.Windows.Forms.Padding(5);
-            this.btnPago.Size = new System.Drawing.Size(214, 60);
-            this.btnPago.TabIndex = 8;
-            this.btnPago.TextAutoCenter = false;
-            this.btnPago.TextOffset = new System.Drawing.Point(15, 0);
-            // 
             // btnEmple
             // 
             this.btnEmple.ButtonText = "Empleados";
@@ -219,7 +138,7 @@
             this.btnEmple.ImageTint = System.Drawing.Color.White;
             this.btnEmple.IsToggleButton = false;
             this.btnEmple.IsToggled = false;
-            this.btnEmple.Location = new System.Drawing.Point(0, 474);
+            this.btnEmple.Location = new System.Drawing.Point(0, 416);
             this.btnEmple.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.btnEmple.Name = "btnEmple";
             this.btnEmple.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
@@ -236,44 +155,6 @@
             this.btnEmple.TextAutoCenter = false;
             this.btnEmple.TextOffset = new System.Drawing.Point(15, 0);
             this.btnEmple.Click += new System.EventHandler(this.btnEmple_Click);
-            // 
-            // btnCom
-            // 
-            this.btnCom.ButtonText = "Compras";
-            this.btnCom.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.btnCom.CheckedForeColor = System.Drawing.Color.White;
-            this.btnCom.CheckedImageTint = System.Drawing.Color.White;
-            this.btnCom.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.btnCom.CustomDialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnCom.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCom.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
-            this.btnCom.HoverForeColor = System.Drawing.Color.White;
-            this.btnCom.HoverImage = null;
-            this.btnCom.HoverImageTint = System.Drawing.Color.White;
-            this.btnCom.HoverOutline = System.Drawing.Color.Empty;
-            this.btnCom.Image = global::Floristeria_SataUI.Properties.Resources.Compras;
-            this.btnCom.ImageAutoCenter = false;
-            this.btnCom.ImageExpand = new System.Drawing.Point(0, 0);
-            this.btnCom.ImageOffset = new System.Drawing.Point(15, 0);
-            this.btnCom.ImageTint = System.Drawing.Color.White;
-            this.btnCom.IsToggleButton = false;
-            this.btnCom.IsToggled = false;
-            this.btnCom.Location = new System.Drawing.Point(0, 412);
-            this.btnCom.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
-            this.btnCom.Name = "btnCom";
-            this.btnCom.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.btnCom.NormalForeColor = System.Drawing.Color.White;
-            this.btnCom.NormalOutline = System.Drawing.Color.Empty;
-            this.btnCom.OutlineThickness = 2F;
-            this.btnCom.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
-            this.btnCom.PressedForeColor = System.Drawing.Color.White;
-            this.btnCom.PressedImageTint = System.Drawing.Color.White;
-            this.btnCom.PressedOutline = System.Drawing.Color.Empty;
-            this.btnCom.Rounding = new System.Windows.Forms.Padding(5);
-            this.btnCom.Size = new System.Drawing.Size(214, 60);
-            this.btnCom.TabIndex = 6;
-            this.btnCom.TextAutoCenter = false;
-            this.btnCom.TextOffset = new System.Drawing.Point(15, 0);
             // 
             // btnCli
             // 
@@ -351,6 +232,7 @@
             this.btnVen.TabIndex = 4;
             this.btnVen.TextAutoCenter = false;
             this.btnVen.TextOffset = new System.Drawing.Point(15, 0);
+            this.btnVen.Click += new System.EventHandler(this.btnVen_Click);
             // 
             // btnPro
             // 
@@ -501,6 +383,45 @@
             this.sataEllipseControl1.CornerRadius = 35;
             this.sataEllipseControl1.TargetControl = this;
             // 
+            // BtnFacturas
+            // 
+            this.BtnFacturas.ButtonText = "Facturas";
+            this.BtnFacturas.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.BtnFacturas.CheckedForeColor = System.Drawing.Color.White;
+            this.BtnFacturas.CheckedImageTint = System.Drawing.Color.White;
+            this.BtnFacturas.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.BtnFacturas.CustomDialogResult = System.Windows.Forms.DialogResult.None;
+            this.BtnFacturas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnFacturas.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
+            this.BtnFacturas.HoverForeColor = System.Drawing.Color.White;
+            this.BtnFacturas.HoverImage = null;
+            this.BtnFacturas.HoverImageTint = System.Drawing.Color.White;
+            this.BtnFacturas.HoverOutline = System.Drawing.Color.Empty;
+            this.BtnFacturas.Image = global::Floristeria_SataUI.Properties.Resources.Pagos;
+            this.BtnFacturas.ImageAutoCenter = false;
+            this.BtnFacturas.ImageExpand = new System.Drawing.Point(0, 0);
+            this.BtnFacturas.ImageOffset = new System.Drawing.Point(15, 0);
+            this.BtnFacturas.ImageTint = System.Drawing.Color.White;
+            this.BtnFacturas.IsToggleButton = false;
+            this.BtnFacturas.IsToggled = false;
+            this.BtnFacturas.Location = new System.Drawing.Point(0, 482);
+            this.BtnFacturas.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.BtnFacturas.Name = "BtnFacturas";
+            this.BtnFacturas.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.BtnFacturas.NormalForeColor = System.Drawing.Color.White;
+            this.BtnFacturas.NormalOutline = System.Drawing.Color.Empty;
+            this.BtnFacturas.OutlineThickness = 2F;
+            this.BtnFacturas.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
+            this.BtnFacturas.PressedForeColor = System.Drawing.Color.White;
+            this.BtnFacturas.PressedImageTint = System.Drawing.Color.White;
+            this.BtnFacturas.PressedOutline = System.Drawing.Color.Empty;
+            this.BtnFacturas.Rounding = new System.Windows.Forms.Padding(5);
+            this.BtnFacturas.Size = new System.Drawing.Size(214, 60);
+            this.BtnFacturas.TabIndex = 8;
+            this.BtnFacturas.TextAutoCenter = false;
+            this.BtnFacturas.TextOffset = new System.Drawing.Point(15, 0);
+            this.BtnFacturas.Click += new System.EventHandler(this.BtnFacturas_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -534,17 +455,15 @@
         private System.Windows.Forms.Label label1;
         private FrameworkTest.SATAButton btnDash;
         private FrameworkTest.SATAButton btnEmple;
-        private FrameworkTest.SATAButton btnCom;
         private FrameworkTest.SATAButton btnCli;
         private FrameworkTest.SATAButton btnVen;
         private FrameworkTest.SATAButton btnPro;
-        private FrameworkTest.SATAButton btnConfig;
         private FrameworkTest.SATAButton btnSalir;
-        private FrameworkTest.SATAButton btnPago;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button1;
+        private FrameworkTest.SATAButton BtnFacturas;
     }
 }
 

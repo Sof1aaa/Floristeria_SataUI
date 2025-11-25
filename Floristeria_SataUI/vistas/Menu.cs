@@ -20,11 +20,13 @@ namespace Floristeria_SataUI
     {
         string name = "";
         string charge = "";
-        public Menu(string nombre_user, string cargo)
+        string document = "";
+        public Menu(string nombre_user, string cargo, string doc)
         {
             InitializeComponent();
             name = nombre_user;
             charge = cargo;
+            document = doc;
             this.panel3.MouseDown += Form1_MouseDown;
             this.panel2.MouseDown += Form1_MouseDown;
         }
@@ -50,7 +52,7 @@ namespace Floristeria_SataUI
 
         private void btnDash_Click(object sender, EventArgs e)
         {
-            CargarUserControl(new UCDashboard(name, charge));
+            CargarUserControl(new UCDashboard(name, charge,document));
         }
 
         private void CargarUserControl(UserControl control)
@@ -133,6 +135,23 @@ namespace Floristeria_SataUI
         private void btnCli_Click(object sender, EventArgs e)
         {
             Abrirprod(new Clientes());
+        }
+
+        private void btnVen_Click(object sender, EventArgs e)
+        {
+            Abrirprod(new Ventas(document));
+        }
+
+        private void BtnFacturas_Click(object sender, EventArgs e)
+        {
+            if (charge == "Empleado")
+            {
+                MessageBox.Show("No tienes permisos para acceder a esta sección.", "Acceso Denegado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                Abrirprod(new Facturas());
+            }
         }
     }
 }

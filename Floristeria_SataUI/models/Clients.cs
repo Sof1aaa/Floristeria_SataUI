@@ -15,5 +15,9 @@ namespace Floristeria_SataUI.models
         public string Email { get; set; }
         public string Direccion { get; set; }
         public string Foto { get; set; }
+        public override string ToString()
+        {
+            return Nombre + " " + Apellido;
+        }
     }
 }

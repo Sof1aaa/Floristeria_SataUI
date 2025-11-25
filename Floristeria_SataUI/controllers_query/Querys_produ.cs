@@ -55,9 +55,10 @@ namespace Floristeria_SataUI.Controllers_query
                         {
                             Id = Convert.ToInt32(reader["ProductoID"]),
                             Nombre = reader["Nombre"].ToString(),
-
+                            Stock = Convert.ToInt32(reader["Stock"]),
                             Precio = Convert.ToDecimal(reader["Precio"]),
                             Imagen = reader["Imagen"].ToString()
+
                         });
                     }
                 }

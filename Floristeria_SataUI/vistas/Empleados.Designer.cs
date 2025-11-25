@@ -32,8 +32,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.sataTextBox1 = new SATATextBox();
-            this.sataButton1 = new FrameworkTest.SATAButton();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -80,8 +78,6 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.sataButton1);
-            this.panel2.Controls.Add(this.sataTextBox1);
             this.panel2.Controls.Add(this.btnCrear);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -115,65 +111,6 @@
             this.panel1.Size = new System.Drawing.Size(0, 0);
             this.panel1.TabIndex = 7;
             // 
-            // sataTextBox1
-            // 
-            this.sataTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(125)))), ((int)(((byte)(130)))));
-            this.sataTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(125)))), ((int)(((byte)(130)))));
-            this.sataTextBox1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(171)))), ((int)(((byte)(21)))));
-            this.sataTextBox1.BorderRadius = 15;
-            this.sataTextBox1.BorderSize = 1;
-            this.sataTextBox1.Icon = global::Floristeria_SataUI.Properties.Resources.Buscar;
-            this.sataTextBox1.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox1.Location = new System.Drawing.Point(35, 14);
-            this.sataTextBox1.Multiline = false;
-            this.sataTextBox1.Name = "sataTextBox1";
-            this.sataTextBox1.PasswordChar = false;
-            this.sataTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.sataTextBox1.PlaceholderText = "Buscar...";
-            this.sataTextBox1.Size = new System.Drawing.Size(250, 31);
-            this.sataTextBox1.TabIndex = 5;
-            this.sataTextBox1.Text = "sataTextBox1";
-            this.sataTextBox1.Texts = "";
-            this.sataTextBox1.UnderlinedStyle = false;
-            // 
-            // sataButton1
-            // 
-            this.sataButton1.ButtonText = "Buscar";
-            this.sataButton1.CheckedBackground = System.Drawing.Color.DodgerBlue;
-            this.sataButton1.CheckedForeColor = System.Drawing.Color.White;
-            this.sataButton1.CheckedImageTint = System.Drawing.Color.White;
-            this.sataButton1.CheckedOutline = System.Drawing.Color.DodgerBlue;
-            this.sataButton1.CustomDialogResult = System.Windows.Forms.DialogResult.None;
-            this.sataButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.sataButton1.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.sataButton1.HoverForeColor = System.Drawing.Color.White;
-            this.sataButton1.HoverImage = null;
-            this.sataButton1.HoverImageTint = System.Drawing.Color.White;
-            this.sataButton1.HoverOutline = System.Drawing.Color.Empty;
-            this.sataButton1.Image = null;
-            this.sataButton1.ImageAutoCenter = true;
-            this.sataButton1.ImageExpand = new System.Drawing.Point(0, 0);
-            this.sataButton1.ImageOffset = new System.Drawing.Point(0, 0);
-            this.sataButton1.ImageTint = System.Drawing.Color.White;
-            this.sataButton1.IsToggleButton = false;
-            this.sataButton1.IsToggled = false;
-            this.sataButton1.Location = new System.Drawing.Point(310, 14);
-            this.sataButton1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.sataButton1.Name = "sataButton1";
-            this.sataButton1.NormalBackground = System.Drawing.Color.DodgerBlue;
-            this.sataButton1.NormalForeColor = System.Drawing.Color.White;
-            this.sataButton1.NormalOutline = System.Drawing.Color.Empty;
-            this.sataButton1.OutlineThickness = 2F;
-            this.sataButton1.PressedBackground = System.Drawing.Color.RoyalBlue;
-            this.sataButton1.PressedForeColor = System.Drawing.Color.White;
-            this.sataButton1.PressedImageTint = System.Drawing.Color.White;
-            this.sataButton1.PressedOutline = System.Drawing.Color.Empty;
-            this.sataButton1.Rounding = new System.Windows.Forms.Padding(5);
-            this.sataButton1.Size = new System.Drawing.Size(103, 31);
-            this.sataButton1.TabIndex = 9;
-            this.sataButton1.TextAutoCenter = true;
-            this.sataButton1.TextOffset = new System.Drawing.Point(0, 0);
-            // 
             // Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -194,11 +131,9 @@
         }
 
         #endregion
-        private SATATextBox sataTextBox1;
         private FrameworkTest.SATAButton btnCrear;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel1;
-        private FrameworkTest.SATAButton sataButton1;
     }
 }

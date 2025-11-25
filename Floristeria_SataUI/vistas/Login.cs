@@ -66,7 +66,7 @@ namespace Floristeria_SataUI
                 return;
             }
        
-                security.login(int.Parse(user), pass, this);
+                security.login(user, pass, this);
         }
 
         private void cbVer_CheckedChanged(object sender, EventArgs e)

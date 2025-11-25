@@ -14,14 +14,15 @@ namespace ProyectoFinal
     public partial class Productos : Form
     {
         int count = 0;
+        string documento;
 
         public Productos()
         {
             InitializeComponent();
             // Cargar todos los productos al abrir el formulario
             CargarProductos();
+            
 
-           
         }
 
      
@@ -106,6 +107,7 @@ namespace ProyectoFinal
                     TextAlign = ContentAlignment.MiddleCenter,
                     Font = new Font("Arial", 10, FontStyle.Regular)
                 };
+
 
                 Button btn_actualizar = new Button
                 {

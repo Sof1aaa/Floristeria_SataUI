@@ -53,9 +53,12 @@
     <Compile Include="controllers_query\Clients_query.cs" />
     <Compile Include="controllers_query\Querys_produ.cs" />
     <Compile Include="controllers_query\query_employee.cs" />
+    <Compile Include="controllers_query\query_ventas.cs" />
     <Compile Include="controllers_query\security.cs" />
     <Compile Include="models\Clients.cs" />
     <Compile Include="models\Employees.cs" />
+    <Compile Include="models\ItemCarrito.cs" />
+    <Compile Include="models\ProductoRanking.cs" />
     <Compile Include="Vistas\Compras.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +70,12 @@
     </Compile>
     <Compile Include="Vistas\Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Facturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Facturas.Designer.cs">
+      <DependentUpon>Facturas.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Empleados.cs">
       <SubType>Form</SubType>
@@ -100,6 +109,18 @@
     </Compile>
     <Compile Include="Vistas\Pagos.Designer.cs">
       <DependentUpon>Pagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\SubVistas\InputCantidadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\SubVistas\InputCantidadForm.Designer.cs">
+      <DependentUpon>InputCantidadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Productos.cs">
       <SubType>Form</SubType>
@@ -173,17 +194,14 @@
     <Compile Include="Vistas\SubVistas\FormularioGeneral.Designer.cs">
       <DependentUpon>FormularioGeneral.cs</DependentUpon>
     </Compile>
-    <Compile Include="Vistas\Ventas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vistas\Ventas.Designer.cs">
-      <DependentUpon>Ventas.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Vistas\Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Clientes.resx">
       <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Facturas.resx">
+      <DependentUpon>Facturas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>
@@ -209,6 +227,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Pagos.resx">
       <DependentUpon>Pagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\SubVistas\InputCantidadForm.resx">
+      <DependentUpon>InputCantidadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
@@ -248,9 +272,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\SubVistas\FormularioGeneral.resx">
       <DependentUpon>FormularioGeneral.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vistas\Ventas.resx">
-      <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
