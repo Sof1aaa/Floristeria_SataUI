@@ -37,71 +37,71 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            SATAUiFramework.BorderRadius borderRadius5 = new SATAUiFramework.BorderRadius();
             SATAUiFramework.BorderRadius borderRadius4 = new SATAUiFramework.BorderRadius();
+            SATAUiFramework.BorderRadius borderRadius5 = new SATAUiFramework.BorderRadius();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnProfile = new FrameworkTest.SATAButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.sataPanel7 = new SATAUiFramework.SATAPanel();
+            this.label6 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.sataPanel6 = new SATAUiFramework.SATAPanel();
+            this.Profile = new SATAUiFramework.Controls.SATAPictureBox();
             this.lblCargo = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.sataAnimator1 = new SATAUiFramework.Components.SataAnimator(this.components);
             this.sataPanel3 = new SATAUiFramework.SATAPanel();
+            this.lblPorcentaje1 = new System.Windows.Forms.Label();
+            this.lblIngresos2 = new System.Windows.Forms.Label();
+            this.lblPorcentaje2 = new System.Windows.Forms.Label();
+            this.lblIngresos1 = new System.Windows.Forms.Label();
+            this.lblCantidad2 = new System.Windows.Forms.Label();
+            this.lblCantidad1 = new System.Windows.Forms.Label();
+            this.lblNombre2 = new System.Windows.Forms.Label();
+            this.lblNombre1 = new System.Windows.Forms.Label();
+            this.sataPictureBox2 = new SATAUiFramework.Controls.SATAPictureBox();
+            this.sataPictureBox1 = new SATAUiFramework.Controls.SATAPictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.lblNombre1 = new System.Windows.Forms.Label();
-            this.lblNombre2 = new System.Windows.Forms.Label();
-            this.lblCantidad1 = new System.Windows.Forms.Label();
-            this.lblCantidad2 = new System.Windows.Forms.Label();
-            this.lblIngresos1 = new System.Windows.Forms.Label();
-            this.lblPorcentaje2 = new System.Windows.Forms.Label();
-            this.lblIngresos2 = new System.Windows.Forms.Label();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.sataPanel1 = new SATAUiFramework.SATAPanel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.sataPanel5 = new SATAUiFramework.SATAPanel();
+            this.Totalventas = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.Totalventas = new System.Windows.Forms.Label();
-            this.lblPorcentaje1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.sataPictureBox2 = new SATAUiFramework.Controls.SATAPictureBox();
-            this.sataPictureBox1 = new SATAUiFramework.Controls.SATAPictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.sataPanel1 = new SATAUiFramework.SATAPanel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnProfile = new FrameworkTest.SATAButton();
-            this.Profile = new SATAUiFramework.Controls.SATAPictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.sataPanel7.SuspendLayout();
             this.sataPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Profile)).BeginInit();
             this.sataPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.sataPanel5.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.sataPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.sataPanel5.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Profile)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -126,6 +126,45 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(308, 91);
             this.panel3.TabIndex = 2;
+            // 
+            // btnProfile
+            // 
+            this.btnProfile.ButtonText = "";
+            this.btnProfile.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
+            this.btnProfile.CheckedForeColor = System.Drawing.Color.White;
+            this.btnProfile.CheckedImageTint = System.Drawing.Color.White;
+            this.btnProfile.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
+            this.btnProfile.CustomDialogResult = System.Windows.Forms.DialogResult.None;
+            this.sataAnimator1.SetDecoration(this.btnProfile, SATAUiFramework.Components.DecorationType.None);
+            this.btnProfile.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnProfile.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(93)))), ((int)(((byte)(99)))));
+            this.btnProfile.HoverForeColor = System.Drawing.Color.White;
+            this.btnProfile.HoverImage = null;
+            this.btnProfile.HoverImageTint = System.Drawing.Color.White;
+            this.btnProfile.HoverOutline = System.Drawing.Color.Empty;
+            this.btnProfile.Image = global::Floristeria_SataUI.Properties.Resources.profile2;
+            this.btnProfile.ImageAutoCenter = true;
+            this.btnProfile.ImageExpand = new System.Drawing.Point(8, 8);
+            this.btnProfile.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnProfile.ImageTint = System.Drawing.Color.White;
+            this.btnProfile.IsToggleButton = false;
+            this.btnProfile.IsToggled = false;
+            this.btnProfile.Location = new System.Drawing.Point(228, 23);
+            this.btnProfile.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnProfile.Name = "btnProfile";
+            this.btnProfile.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
+            this.btnProfile.NormalForeColor = System.Drawing.Color.White;
+            this.btnProfile.NormalOutline = System.Drawing.Color.Empty;
+            this.btnProfile.OutlineThickness = 2F;
+            this.btnProfile.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(93)))), ((int)(((byte)(99)))));
+            this.btnProfile.PressedForeColor = System.Drawing.Color.White;
+            this.btnProfile.PressedImageTint = System.Drawing.Color.White;
+            this.btnProfile.PressedOutline = System.Drawing.Color.Empty;
+            this.btnProfile.Rounding = new System.Windows.Forms.Padding(5);
+            this.btnProfile.Size = new System.Drawing.Size(54, 43);
+            this.btnProfile.TabIndex = 2;
+            this.btnProfile.TextAutoCenter = true;
+            this.btnProfile.TextOffset = new System.Drawing.Point(0, 0);
             // 
             // label2
             // 
@@ -182,6 +221,17 @@
             this.sataPanel7.Size = new System.Drawing.Size(257, 442);
             this.sataPanel7.TabIndex = 7;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.label6, SATAUiFramework.Components.DecorationType.None);
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(100, 85);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(58, 17);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Ninguno";
+            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -213,27 +263,45 @@
             this.sataPanel6.Size = new System.Drawing.Size(257, 224);
             this.sataPanel6.TabIndex = 6;
             // 
+            // Profile
+            // 
+            this.Profile.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.Profile.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            this.Profile.BorderColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(68)))), ((int)(((byte)(142)))));
+            this.Profile.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.Profile.BorderSize = 1;
+            this.sataAnimator1.SetDecoration(this.Profile, SATAUiFramework.Components.DecorationType.None);
+            this.Profile.GradientAngle = 50F;
+            this.Profile.Location = new System.Drawing.Point(60, 31);
+            this.Profile.Name = "Profile";
+            this.Profile.Size = new System.Drawing.Size(133, 133);
+            this.Profile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Profile.TabIndex = 22;
+            this.Profile.TabStop = false;
+            // 
             // lblCargo
             // 
-            this.lblCargo.AutoSize = true;
+            this.lblCargo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.sataAnimator1.SetDecoration(this.lblCargo, SATAUiFramework.Components.DecorationType.None);
             this.lblCargo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.lblCargo.Location = new System.Drawing.Point(108, 189);
+            this.lblCargo.Location = new System.Drawing.Point(60, 188);
             this.lblCargo.Name = "lblCargo";
-            this.lblCargo.Size = new System.Drawing.Size(48, 20);
+            this.lblCargo.Size = new System.Drawing.Size(133, 20);
             this.lblCargo.TabIndex = 1;
             this.lblCargo.Text = "cargo";
+            this.lblCargo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblTitulo
             // 
-            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.sataAnimator1.SetDecoration(this.lblTitulo, SATAUiFramework.Components.DecorationType.None);
             this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.lblTitulo.Location = new System.Drawing.Point(108, 169);
+            this.lblTitulo.Location = new System.Drawing.Point(60, 168);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(39, 20);
+            this.lblTitulo.Size = new System.Drawing.Size(133, 20);
             this.lblTitulo.TabIndex = 0;
             this.lblTitulo.Text = "user";
+            this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // sataAnimator1
             // 
@@ -290,6 +358,126 @@
             this.sataPanel3.Name = "sataPanel3";
             this.sataPanel3.Size = new System.Drawing.Size(845, 201);
             this.sataPanel3.TabIndex = 9;
+            // 
+            // lblPorcentaje1
+            // 
+            this.lblPorcentaje1.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.lblPorcentaje1, SATAUiFramework.Components.DecorationType.None);
+            this.lblPorcentaje1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPorcentaje1.Location = new System.Drawing.Point(697, 83);
+            this.lblPorcentaje1.Name = "lblPorcentaje1";
+            this.lblPorcentaje1.Size = new System.Drawing.Size(60, 17);
+            this.lblPorcentaje1.TabIndex = 21;
+            this.lblPorcentaje1.Text = "Cantidad";
+            // 
+            // lblIngresos2
+            // 
+            this.lblIngresos2.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.lblIngresos2, SATAUiFramework.Components.DecorationType.None);
+            this.lblIngresos2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngresos2.Location = new System.Drawing.Point(519, 152);
+            this.lblIngresos2.Name = "lblIngresos2";
+            this.lblIngresos2.Size = new System.Drawing.Size(60, 17);
+            this.lblIngresos2.TabIndex = 20;
+            this.lblIngresos2.Text = "Cantidad";
+            // 
+            // lblPorcentaje2
+            // 
+            this.lblPorcentaje2.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.lblPorcentaje2, SATAUiFramework.Components.DecorationType.None);
+            this.lblPorcentaje2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPorcentaje2.Location = new System.Drawing.Point(697, 152);
+            this.lblPorcentaje2.Name = "lblPorcentaje2";
+            this.lblPorcentaje2.Size = new System.Drawing.Size(60, 17);
+            this.lblPorcentaje2.TabIndex = 20;
+            this.lblPorcentaje2.Text = "Cantidad";
+            // 
+            // lblIngresos1
+            // 
+            this.lblIngresos1.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.lblIngresos1, SATAUiFramework.Components.DecorationType.None);
+            this.lblIngresos1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngresos1.Location = new System.Drawing.Point(519, 83);
+            this.lblIngresos1.Name = "lblIngresos1";
+            this.lblIngresos1.Size = new System.Drawing.Size(60, 17);
+            this.lblIngresos1.TabIndex = 19;
+            this.lblIngresos1.Text = "Cantidad";
+            // 
+            // lblCantidad2
+            // 
+            this.lblCantidad2.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.lblCantidad2, SATAUiFramework.Components.DecorationType.None);
+            this.lblCantidad2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidad2.Location = new System.Drawing.Point(358, 152);
+            this.lblCantidad2.Name = "lblCantidad2";
+            this.lblCantidad2.Size = new System.Drawing.Size(60, 17);
+            this.lblCantidad2.TabIndex = 18;
+            this.lblCantidad2.Text = "Cantidad";
+            // 
+            // lblCantidad1
+            // 
+            this.lblCantidad1.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.lblCantidad1, SATAUiFramework.Components.DecorationType.None);
+            this.lblCantidad1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidad1.Location = new System.Drawing.Point(358, 83);
+            this.lblCantidad1.Name = "lblCantidad1";
+            this.lblCantidad1.Size = new System.Drawing.Size(60, 17);
+            this.lblCantidad1.TabIndex = 17;
+            this.lblCantidad1.Text = "Cantidad";
+            // 
+            // lblNombre2
+            // 
+            this.lblNombre2.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.lblNombre2, SATAUiFramework.Components.DecorationType.None);
+            this.lblNombre2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre2.Location = new System.Drawing.Point(138, 152);
+            this.lblNombre2.Name = "lblNombre2";
+            this.lblNombre2.Size = new System.Drawing.Size(57, 17);
+            this.lblNombre2.TabIndex = 16;
+            this.lblNombre2.Text = "Nombre";
+            // 
+            // lblNombre1
+            // 
+            this.lblNombre1.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.lblNombre1, SATAUiFramework.Components.DecorationType.None);
+            this.lblNombre1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre1.Location = new System.Drawing.Point(138, 83);
+            this.lblNombre1.Name = "lblNombre1";
+            this.lblNombre1.Size = new System.Drawing.Size(57, 17);
+            this.lblNombre1.TabIndex = 15;
+            this.lblNombre1.Text = "Nombre";
+            // 
+            // sataPictureBox2
+            // 
+            this.sataPictureBox2.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.sataPictureBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            this.sataPictureBox2.BorderColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(68)))), ((int)(((byte)(142)))));
+            this.sataPictureBox2.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.sataPictureBox2.BorderSize = 1;
+            this.sataAnimator1.SetDecoration(this.sataPictureBox2, SATAUiFramework.Components.DecorationType.None);
+            this.sataPictureBox2.GradientAngle = 50F;
+            this.sataPictureBox2.Location = new System.Drawing.Point(19, 128);
+            this.sataPictureBox2.Name = "sataPictureBox2";
+            this.sataPictureBox2.Size = new System.Drawing.Size(60, 60);
+            this.sataPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sataPictureBox2.TabIndex = 14;
+            this.sataPictureBox2.TabStop = false;
+            // 
+            // sataPictureBox1
+            // 
+            this.sataPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.sataPictureBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            this.sataPictureBox1.BorderColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(68)))), ((int)(((byte)(142)))));
+            this.sataPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.sataPictureBox1.BorderSize = 1;
+            this.sataAnimator1.SetDecoration(this.sataPictureBox1, SATAUiFramework.Components.DecorationType.None);
+            this.sataPictureBox1.GradientAngle = 50F;
+            this.sataPictureBox1.Location = new System.Drawing.Point(19, 62);
+            this.sataPictureBox1.Name = "sataPictureBox1";
+            this.sataPictureBox1.Size = new System.Drawing.Size(60, 60);
+            this.sataPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sataPictureBox1.TabIndex = 13;
+            this.sataPictureBox1.TabStop = false;
             // 
             // label15
             // 
@@ -364,83 +552,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(865, 734);
             this.tableLayoutPanel1.TabIndex = 11;
             // 
-            // lblNombre1
-            // 
-            this.lblNombre1.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.lblNombre1, SATAUiFramework.Components.DecorationType.None);
-            this.lblNombre1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre1.Location = new System.Drawing.Point(138, 83);
-            this.lblNombre1.Name = "lblNombre1";
-            this.lblNombre1.Size = new System.Drawing.Size(57, 17);
-            this.lblNombre1.TabIndex = 15;
-            this.lblNombre1.Text = "Nombre";
-            // 
-            // lblNombre2
-            // 
-            this.lblNombre2.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.lblNombre2, SATAUiFramework.Components.DecorationType.None);
-            this.lblNombre2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre2.Location = new System.Drawing.Point(138, 152);
-            this.lblNombre2.Name = "lblNombre2";
-            this.lblNombre2.Size = new System.Drawing.Size(57, 17);
-            this.lblNombre2.TabIndex = 16;
-            this.lblNombre2.Text = "Nombre";
-            // 
-            // lblCantidad1
-            // 
-            this.lblCantidad1.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.lblCantidad1, SATAUiFramework.Components.DecorationType.None);
-            this.lblCantidad1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantidad1.Location = new System.Drawing.Point(358, 83);
-            this.lblCantidad1.Name = "lblCantidad1";
-            this.lblCantidad1.Size = new System.Drawing.Size(60, 17);
-            this.lblCantidad1.TabIndex = 17;
-            this.lblCantidad1.Text = "Cantidad";
-            // 
-            // lblCantidad2
-            // 
-            this.lblCantidad2.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.lblCantidad2, SATAUiFramework.Components.DecorationType.None);
-            this.lblCantidad2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantidad2.Location = new System.Drawing.Point(358, 152);
-            this.lblCantidad2.Name = "lblCantidad2";
-            this.lblCantidad2.Size = new System.Drawing.Size(60, 17);
-            this.lblCantidad2.TabIndex = 18;
-            this.lblCantidad2.Text = "Cantidad";
-            // 
-            // lblIngresos1
-            // 
-            this.lblIngresos1.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.lblIngresos1, SATAUiFramework.Components.DecorationType.None);
-            this.lblIngresos1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngresos1.Location = new System.Drawing.Point(519, 83);
-            this.lblIngresos1.Name = "lblIngresos1";
-            this.lblIngresos1.Size = new System.Drawing.Size(60, 17);
-            this.lblIngresos1.TabIndex = 19;
-            this.lblIngresos1.Text = "Cantidad";
-            // 
-            // lblPorcentaje2
-            // 
-            this.lblPorcentaje2.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.lblPorcentaje2, SATAUiFramework.Components.DecorationType.None);
-            this.lblPorcentaje2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPorcentaje2.Location = new System.Drawing.Point(697, 152);
-            this.lblPorcentaje2.Name = "lblPorcentaje2";
-            this.lblPorcentaje2.Size = new System.Drawing.Size(60, 17);
-            this.lblPorcentaje2.TabIndex = 20;
-            this.lblPorcentaje2.Text = "Cantidad";
-            // 
-            // lblIngresos2
-            // 
-            this.lblIngresos2.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.lblIngresos2, SATAUiFramework.Components.DecorationType.None);
-            this.lblIngresos2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngresos2.Location = new System.Drawing.Point(519, 152);
-            this.lblIngresos2.Name = "lblIngresos2";
-            this.lblIngresos2.Size = new System.Drawing.Size(60, 17);
-            this.lblIngresos2.TabIndex = 20;
-            this.lblIngresos2.Text = "Cantidad";
-            // 
             // chart1
             // 
             chartArea1.Name = "ChartArea1";
@@ -459,61 +570,22 @@
             this.chart1.TabIndex = 10;
             this.chart1.Text = "chart1";
             // 
-            // sataPanel1
+            // tableLayoutPanel2
             // 
-            this.sataPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.sataPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))));
-            this.sataPanel1.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))));
-            this.sataPanel1.BorderColor = System.Drawing.Color.Black;
-            borderRadius5.BottomLeft = 15;
-            borderRadius5.BottomRight = 15;
-            borderRadius5.TopLeft = 15;
-            borderRadius5.TopRight = 15;
-            this.sataPanel1.BorderRadius = borderRadius5;
-            this.sataPanel1.BorderThickness = 0;
-            this.sataPanel1.Controls.Add(this.label7);
-            this.sataPanel1.Controls.Add(this.panel4);
-            this.sataAnimator1.SetDecoration(this.sataPanel1, SATAUiFramework.Components.DecorationType.None);
-            this.sataPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sataPanel1.Location = new System.Drawing.Point(15, 15);
-            this.sataPanel1.Margin = new System.Windows.Forms.Padding(15);
-            this.sataPanel1.Name = "sataPanel1";
-            this.sataPanel1.Size = new System.Drawing.Size(399, 110);
-            this.sataPanel1.TabIndex = 6;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(208)))), ((int)(((byte)(62)))));
-            this.panel4.Controls.Add(this.panel6);
-            this.sataAnimator1.SetDecoration(this.panel4, SATAUiFramework.Components.DecorationType.None);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(93, 110);
-            this.panel4.TabIndex = 0;
-            // 
-            // panel6
-            // 
-            this.panel6.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel6.Controls.Add(this.pictureBox1);
-            this.panel6.Controls.Add(this.label3);
-            this.sataAnimator1.SetDecoration(this.panel6, SATAUiFramework.Components.DecorationType.None);
-            this.panel6.Location = new System.Drawing.Point(13, 4);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(67, 102);
-            this.panel6.TabIndex = 4;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.label3, SATAUiFramework.Components.DecorationType.None);
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(0, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 40);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Pedidos\r\nActivos\r\n";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Controls.Add(this.sataPanel5, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.sataPanel1, 0, 0);
+            this.sataAnimator1.SetDecoration(this.tableLayoutPanel2, SATAUiFramework.Components.DecorationType.None);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 140F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(859, 140);
+            this.tableLayoutPanel2.TabIndex = 0;
             // 
             // sataPanel5
             // 
@@ -536,6 +608,17 @@
             this.sataPanel5.Name = "sataPanel5";
             this.sataPanel5.Size = new System.Drawing.Size(400, 110);
             this.sataPanel5.TabIndex = 7;
+            // 
+            // Totalventas
+            // 
+            this.Totalventas.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.Totalventas, SATAUiFramework.Components.DecorationType.None);
+            this.Totalventas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
+            this.Totalventas.Location = new System.Drawing.Point(119, 46);
+            this.Totalventas.Name = "Totalventas";
+            this.Totalventas.Size = new System.Drawing.Size(71, 20);
+            this.Totalventas.TabIndex = 22;
+            this.Totalventas.Text = "Cantidad";
             // 
             // panel5
             // 
@@ -561,55 +644,37 @@
             this.label4.Text = "Ventas\r\nTotales\r\n";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // tableLayoutPanel2
+            // pictureBox2
             // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.sataPanel5, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.sataPanel1, 0, 0);
-            this.sataAnimator1.SetDecoration(this.tableLayoutPanel2, SATAUiFramework.Components.DecorationType.None);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 140F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(859, 140);
-            this.tableLayoutPanel2.TabIndex = 0;
+            this.sataAnimator1.SetDecoration(this.pictureBox2, SATAUiFramework.Components.DecorationType.None);
+            this.pictureBox2.Image = global::Floristeria_SataUI.Properties.Resources.Ingresos;
+            this.pictureBox2.Location = new System.Drawing.Point(20, 46);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(52, 53);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
-            // Totalventas
+            // sataPanel1
             // 
-            this.Totalventas.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.Totalventas, SATAUiFramework.Components.DecorationType.None);
-            this.Totalventas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.Totalventas.Location = new System.Drawing.Point(119, 46);
-            this.Totalventas.Name = "Totalventas";
-            this.Totalventas.Size = new System.Drawing.Size(71, 20);
-            this.Totalventas.TabIndex = 22;
-            this.Totalventas.Text = "Cantidad";
-            // 
-            // lblPorcentaje1
-            // 
-            this.lblPorcentaje1.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.lblPorcentaje1, SATAUiFramework.Components.DecorationType.None);
-            this.lblPorcentaje1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPorcentaje1.Location = new System.Drawing.Point(697, 83);
-            this.lblPorcentaje1.Name = "lblPorcentaje1";
-            this.lblPorcentaje1.Size = new System.Drawing.Size(60, 17);
-            this.lblPorcentaje1.TabIndex = 21;
-            this.lblPorcentaje1.Text = "Cantidad";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.sataAnimator1.SetDecoration(this.label6, SATAUiFramework.Components.DecorationType.None);
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(100, 85);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 17);
-            this.label6.TabIndex = 22;
-            this.label6.Text = "Ninguno";
+            this.sataPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.sataPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))));
+            this.sataPanel1.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))));
+            this.sataPanel1.BorderColor = System.Drawing.Color.Black;
+            borderRadius5.BottomLeft = 15;
+            borderRadius5.BottomRight = 15;
+            borderRadius5.TopLeft = 15;
+            borderRadius5.TopRight = 15;
+            this.sataPanel1.BorderRadius = borderRadius5;
+            this.sataPanel1.BorderThickness = 0;
+            this.sataPanel1.Controls.Add(this.label7);
+            this.sataPanel1.Controls.Add(this.panel4);
+            this.sataAnimator1.SetDecoration(this.sataPanel1, SATAUiFramework.Components.DecorationType.None);
+            this.sataPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sataPanel1.Location = new System.Drawing.Point(15, 15);
+            this.sataPanel1.Margin = new System.Windows.Forms.Padding(15);
+            this.sataPanel1.Name = "sataPanel1";
+            this.sataPanel1.Size = new System.Drawing.Size(399, 110);
+            this.sataPanel1.TabIndex = 6;
             // 
             // label7
             // 
@@ -622,47 +687,27 @@
             this.label7.TabIndex = 23;
             this.label7.Text = "Ninguno";
             // 
-            // sataPictureBox2
+            // panel4
             // 
-            this.sataPictureBox2.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.sataPictureBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            this.sataPictureBox2.BorderColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(68)))), ((int)(((byte)(142)))));
-            this.sataPictureBox2.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.sataPictureBox2.BorderSize = 1;
-            this.sataAnimator1.SetDecoration(this.sataPictureBox2, SATAUiFramework.Components.DecorationType.None);
-            this.sataPictureBox2.GradientAngle = 50F;
-            this.sataPictureBox2.Location = new System.Drawing.Point(19, 128);
-            this.sataPictureBox2.Name = "sataPictureBox2";
-            this.sataPictureBox2.Size = new System.Drawing.Size(60, 60);
-            this.sataPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.sataPictureBox2.TabIndex = 14;
-            this.sataPictureBox2.TabStop = false;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(208)))), ((int)(((byte)(62)))));
+            this.panel4.Controls.Add(this.panel6);
+            this.sataAnimator1.SetDecoration(this.panel4, SATAUiFramework.Components.DecorationType.None);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(93, 110);
+            this.panel4.TabIndex = 0;
             // 
-            // sataPictureBox1
+            // panel6
             // 
-            this.sataPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.sataPictureBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            this.sataPictureBox1.BorderColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(68)))), ((int)(((byte)(142)))));
-            this.sataPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.sataPictureBox1.BorderSize = 1;
-            this.sataAnimator1.SetDecoration(this.sataPictureBox1, SATAUiFramework.Components.DecorationType.None);
-            this.sataPictureBox1.GradientAngle = 50F;
-            this.sataPictureBox1.Location = new System.Drawing.Point(19, 62);
-            this.sataPictureBox1.Name = "sataPictureBox1";
-            this.sataPictureBox1.Size = new System.Drawing.Size(60, 60);
-            this.sataPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.sataPictureBox1.TabIndex = 13;
-            this.sataPictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.sataAnimator1.SetDecoration(this.pictureBox2, SATAUiFramework.Components.DecorationType.None);
-            this.pictureBox2.Image = global::Floristeria_SataUI.Properties.Resources.Ingresos;
-            this.pictureBox2.Location = new System.Drawing.Point(20, 46);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(52, 53);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.panel6.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel6.Controls.Add(this.pictureBox1);
+            this.panel6.Controls.Add(this.label3);
+            this.sataAnimator1.SetDecoration(this.panel6, SATAUiFramework.Components.DecorationType.None);
+            this.panel6.Location = new System.Drawing.Point(13, 4);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(67, 102);
+            this.panel6.TabIndex = 4;
             // 
             // pictureBox1
             // 
@@ -674,60 +719,17 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // btnProfile
+            // label3
             // 
-            this.btnProfile.ButtonText = "";
-            this.btnProfile.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
-            this.btnProfile.CheckedForeColor = System.Drawing.Color.White;
-            this.btnProfile.CheckedImageTint = System.Drawing.Color.White;
-            this.btnProfile.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
-            this.btnProfile.CustomDialogResult = System.Windows.Forms.DialogResult.None;
-            this.sataAnimator1.SetDecoration(this.btnProfile, SATAUiFramework.Components.DecorationType.None);
-            this.btnProfile.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnProfile.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(93)))), ((int)(((byte)(99)))));
-            this.btnProfile.HoverForeColor = System.Drawing.Color.White;
-            this.btnProfile.HoverImage = null;
-            this.btnProfile.HoverImageTint = System.Drawing.Color.White;
-            this.btnProfile.HoverOutline = System.Drawing.Color.Empty;
-            this.btnProfile.Image = global::Floristeria_SataUI.Properties.Resources.profile2;
-            this.btnProfile.ImageAutoCenter = true;
-            this.btnProfile.ImageExpand = new System.Drawing.Point(8, 8);
-            this.btnProfile.ImageOffset = new System.Drawing.Point(5, 0);
-            this.btnProfile.ImageTint = System.Drawing.Color.White;
-            this.btnProfile.IsToggleButton = false;
-            this.btnProfile.IsToggled = false;
-            this.btnProfile.Location = new System.Drawing.Point(228, 23);
-            this.btnProfile.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnProfile.Name = "btnProfile";
-            this.btnProfile.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
-            this.btnProfile.NormalForeColor = System.Drawing.Color.White;
-            this.btnProfile.NormalOutline = System.Drawing.Color.Empty;
-            this.btnProfile.OutlineThickness = 2F;
-            this.btnProfile.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(93)))), ((int)(((byte)(99)))));
-            this.btnProfile.PressedForeColor = System.Drawing.Color.White;
-            this.btnProfile.PressedImageTint = System.Drawing.Color.White;
-            this.btnProfile.PressedOutline = System.Drawing.Color.Empty;
-            this.btnProfile.Rounding = new System.Windows.Forms.Padding(5);
-            this.btnProfile.Size = new System.Drawing.Size(54, 43);
-            this.btnProfile.TabIndex = 2;
-            this.btnProfile.TextAutoCenter = true;
-            this.btnProfile.TextOffset = new System.Drawing.Point(0, 0);
-            // 
-            // Profile
-            // 
-            this.Profile.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.Profile.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            this.Profile.BorderColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(68)))), ((int)(((byte)(142)))));
-            this.Profile.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.Profile.BorderSize = 1;
-            this.sataAnimator1.SetDecoration(this.Profile, SATAUiFramework.Components.DecorationType.None);
-            this.Profile.GradientAngle = 50F;
-            this.Profile.Location = new System.Drawing.Point(60, 31);
-            this.Profile.Name = "Profile";
-            this.Profile.Size = new System.Drawing.Size(133, 133);
-            this.Profile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Profile.TabIndex = 22;
-            this.Profile.TabStop = false;
+            this.label3.AutoSize = true;
+            this.sataAnimator1.SetDecoration(this.label3, SATAUiFramework.Components.DecorationType.None);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(0, 3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 40);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Pedidos\r\nActivos\r\n";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // UCDashboard
             // 
@@ -750,26 +752,25 @@
             this.sataPanel7.ResumeLayout(false);
             this.sataPanel7.PerformLayout();
             this.sataPanel6.ResumeLayout(false);
-            this.sataPanel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Profile)).EndInit();
             this.sataPanel3.ResumeLayout(false);
             this.sataPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.sataPanel5.ResumeLayout(false);
+            this.sataPanel5.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.sataPanel1.ResumeLayout(false);
             this.sataPanel1.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.sataPanel5.ResumeLayout(false);
-            this.sataPanel5.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sataPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Profile)).EndInit();
             this.ResumeLayout(false);
 
         }

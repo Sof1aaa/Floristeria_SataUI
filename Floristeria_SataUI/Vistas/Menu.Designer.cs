@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnSalir = new FrameworkTest.SATAButton();
+            this.BtnFacturas = new FrameworkTest.SATAButton();
             this.btnEmple = new FrameworkTest.SATAButton();
             this.btnCli = new FrameworkTest.SATAButton();
             this.btnVen = new FrameworkTest.SATAButton();
@@ -43,7 +45,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.sataEllipseControl1 = new SATAUiFramework.Controls.SATAEllipseControl();
-            this.BtnFacturas = new FrameworkTest.SATAButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlVentana.SuspendLayout();
@@ -116,6 +117,45 @@
             this.btnSalir.TextAutoCenter = false;
             this.btnSalir.TextOffset = new System.Drawing.Point(15, 0);
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // BtnFacturas
+            // 
+            this.BtnFacturas.ButtonText = "Facturas";
+            this.BtnFacturas.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.BtnFacturas.CheckedForeColor = System.Drawing.Color.White;
+            this.BtnFacturas.CheckedImageTint = System.Drawing.Color.White;
+            this.BtnFacturas.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.BtnFacturas.CustomDialogResult = System.Windows.Forms.DialogResult.None;
+            this.BtnFacturas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnFacturas.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
+            this.BtnFacturas.HoverForeColor = System.Drawing.Color.White;
+            this.BtnFacturas.HoverImage = null;
+            this.BtnFacturas.HoverImageTint = System.Drawing.Color.White;
+            this.BtnFacturas.HoverOutline = System.Drawing.Color.Empty;
+            this.BtnFacturas.Image = global::Floristeria_SataUI.Properties.Resources.Pagos;
+            this.BtnFacturas.ImageAutoCenter = false;
+            this.BtnFacturas.ImageExpand = new System.Drawing.Point(0, 0);
+            this.BtnFacturas.ImageOffset = new System.Drawing.Point(15, 0);
+            this.BtnFacturas.ImageTint = System.Drawing.Color.White;
+            this.BtnFacturas.IsToggleButton = false;
+            this.BtnFacturas.IsToggled = false;
+            this.BtnFacturas.Location = new System.Drawing.Point(0, 482);
+            this.BtnFacturas.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.BtnFacturas.Name = "BtnFacturas";
+            this.BtnFacturas.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
+            this.BtnFacturas.NormalForeColor = System.Drawing.Color.White;
+            this.BtnFacturas.NormalOutline = System.Drawing.Color.Empty;
+            this.BtnFacturas.OutlineThickness = 2F;
+            this.BtnFacturas.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
+            this.BtnFacturas.PressedForeColor = System.Drawing.Color.White;
+            this.BtnFacturas.PressedImageTint = System.Drawing.Color.White;
+            this.BtnFacturas.PressedOutline = System.Drawing.Color.Empty;
+            this.BtnFacturas.Rounding = new System.Windows.Forms.Padding(5);
+            this.BtnFacturas.Size = new System.Drawing.Size(214, 60);
+            this.BtnFacturas.TabIndex = 8;
+            this.BtnFacturas.TextAutoCenter = false;
+            this.BtnFacturas.TextOffset = new System.Drawing.Point(15, 0);
+            this.BtnFacturas.Click += new System.EventHandler(this.BtnFacturas_Click);
             // 
             // btnEmple
             // 
@@ -383,45 +423,6 @@
             this.sataEllipseControl1.CornerRadius = 35;
             this.sataEllipseControl1.TargetControl = this;
             // 
-            // BtnFacturas
-            // 
-            this.BtnFacturas.ButtonText = "Facturas";
-            this.BtnFacturas.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.BtnFacturas.CheckedForeColor = System.Drawing.Color.White;
-            this.BtnFacturas.CheckedImageTint = System.Drawing.Color.White;
-            this.BtnFacturas.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.BtnFacturas.CustomDialogResult = System.Windows.Forms.DialogResult.None;
-            this.BtnFacturas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnFacturas.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
-            this.BtnFacturas.HoverForeColor = System.Drawing.Color.White;
-            this.BtnFacturas.HoverImage = null;
-            this.BtnFacturas.HoverImageTint = System.Drawing.Color.White;
-            this.BtnFacturas.HoverOutline = System.Drawing.Color.Empty;
-            this.BtnFacturas.Image = global::Floristeria_SataUI.Properties.Resources.Pagos;
-            this.BtnFacturas.ImageAutoCenter = false;
-            this.BtnFacturas.ImageExpand = new System.Drawing.Point(0, 0);
-            this.BtnFacturas.ImageOffset = new System.Drawing.Point(15, 0);
-            this.BtnFacturas.ImageTint = System.Drawing.Color.White;
-            this.BtnFacturas.IsToggleButton = false;
-            this.BtnFacturas.IsToggled = false;
-            this.BtnFacturas.Location = new System.Drawing.Point(0, 482);
-            this.BtnFacturas.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
-            this.BtnFacturas.Name = "BtnFacturas";
-            this.BtnFacturas.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(95)))), ((int)(((byte)(73)))));
-            this.BtnFacturas.NormalForeColor = System.Drawing.Color.White;
-            this.BtnFacturas.NormalOutline = System.Drawing.Color.Empty;
-            this.BtnFacturas.OutlineThickness = 2F;
-            this.BtnFacturas.PressedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(59)))), ((int)(((byte)(9)))));
-            this.BtnFacturas.PressedForeColor = System.Drawing.Color.White;
-            this.BtnFacturas.PressedImageTint = System.Drawing.Color.White;
-            this.BtnFacturas.PressedOutline = System.Drawing.Color.Empty;
-            this.BtnFacturas.Rounding = new System.Windows.Forms.Padding(5);
-            this.BtnFacturas.Size = new System.Drawing.Size(214, 60);
-            this.BtnFacturas.TabIndex = 8;
-            this.BtnFacturas.TextAutoCenter = false;
-            this.BtnFacturas.TextOffset = new System.Drawing.Point(15, 0);
-            this.BtnFacturas.Click += new System.EventHandler(this.BtnFacturas_Click);
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -433,6 +434,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
